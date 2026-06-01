@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Jian Zhou's Group
 date: 2022-10-24
 type: landing
 
@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Zhou's Research Group** on Nonlinear Optics Simulations.
   
   - block: collection
     content:
