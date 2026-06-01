@@ -2,20 +2,32 @@ name: Hugo Build and Deploy
 on:
   push:
     branches: [ main ]
+
+permissions:
+  contents: write  # 关键：允许写分支（创建 gh-pages）
+  pages: write
+  id-token: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: true  # HugoBlox 主题依赖 submodule
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.146.0'
           extended: true
+
       - name: Build
         run: hugo --gc --minify
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          force_orphan: true  # 干净重建 gh-pages
