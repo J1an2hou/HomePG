@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: Jian Zhou's Group
-date: 2022-10-24
+title: 
+date: 
 type: landing
 
 sections:
