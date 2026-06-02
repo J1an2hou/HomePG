@@ -10,7 +10,7 @@ sections:
       title: |
         Zhou Group
       image:
-        filename: JZ.jpg
+        filename: wel.jpg
       text: |
         <br>
         
@@ -44,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: coding.jpg
           filters:
             brightness: 1
           parallax: false
