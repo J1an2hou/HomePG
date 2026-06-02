@@ -8,14 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Zhou
-        Research Group
+        Zhou Group
       image:
-        filename: welcome.jpg
+        filename: JZ.jpg
       text: |
         <br>
         
-        The **Zhou's Research Group** on Nonlinear Optics Simulations.
+        The **Jian Zhou Research Group** on Nonlinear Optics Simulations.
   
   - block: collection
     content:
