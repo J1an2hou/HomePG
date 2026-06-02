@@ -8,13 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Zhou Group
+        Zhou Group @ XJTU
       image:
-        filename: wel.jpg
+        filename: coding.jpg
       text: |
         <br>
         
-        The **Jian Zhou Research Group** on Nonlinear Optics Simulations.
+        **Jian Zhou Research Group** on Nonlinear Optics Simulations.
   
   - block: collection
     content:
@@ -44,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coding.jpg
+          filename: wel.jpg
           filters:
             brightness: 1
           parallax: false
@@ -73,7 +73,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="Explore Us →" %}}
     design:
       columns: '1'
 ---
