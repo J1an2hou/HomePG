@@ -14,7 +14,7 @@ role: Professor of MSE
 
 # Organizations/Affiliations
 organizations:
-  - name: Xi'an Jiaotong University University
+  - name: Xi'an Jiaotong University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -41,16 +41,14 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:jianzhou@xjtu.edu.cn'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://x.com/seaon_600
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://scholar.google.com/citations?user=xQNLlmwAAAAJ&hl=en
+    
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,7 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Principal Investigator
 ---
 
 Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials.
