@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 
-date: 
+title: Nonlinear Optics
+date: 2026
 type: landing
 
 sections:
