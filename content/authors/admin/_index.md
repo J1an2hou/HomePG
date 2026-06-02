@@ -64,7 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigator
+  - Principal Investigators
 ---
 
 Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials.
