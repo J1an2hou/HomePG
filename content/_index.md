@@ -10,7 +10,7 @@ sections:
       title: |
         Zhou Group @ XJTU
       image:
-        filename: coding.jpg
+        filename: NLO.jpg
       text: |
         <br>
         
@@ -52,7 +52,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['16px', '0', '16px', '0']
       css_class: fullscreen
 
   - block: collection
