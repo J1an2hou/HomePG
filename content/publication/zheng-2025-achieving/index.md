@@ -1,6 +1,5 @@
 ---
 title: "Achieving High-Yield Conversion of Janus Transition Metal Dichalcogenides on Diverse Substrates"
-  Diverse Substrates
 authors:
 - Xueqiu Zheng
 - Kunyan Zhang

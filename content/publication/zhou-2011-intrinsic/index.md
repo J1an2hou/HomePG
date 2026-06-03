@@ -1,6 +1,5 @@
 ---
 title: "Intrinsic ferromagnetism in two-dimensional carbon structures: Triangular graphene nanoflakes linked by carbon chains"
-  graphene nanoflakes linked by carbon chains'
 authors:
 - Jian Zhou
 - Qian Wang

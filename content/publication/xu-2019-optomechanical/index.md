@@ -1,5 +1,5 @@
 ---
-title: Optomechanical control of stacking patterns of h-BN bilayer
+title: "Optomechanical control of stacking patterns of h-BN bilayer"
 authors:
 - Haowei Xu
 - Jian Zhou

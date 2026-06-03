@@ -1,5 +1,5 @@
 ---
-title: Raman-active interlayer phonons and moiré phonons in twisted thin-layer MoTe2
+title: "Raman-active interlayer phonons and moiré phonons in twisted thin-layer MoTe2"
 authors:
 - Youxuan Wu
 - Shiyuan Wang

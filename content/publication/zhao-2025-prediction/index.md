@@ -1,6 +1,5 @@
 ---
 title: "Prediction of high Chern number and bulk photovoltaic current in Janus 1T' transition metal dichalcogenides under circularly polarized light"
-  transition metal dichalcogenides under circularly polarized light
 authors:
 - Xiantuo Zhao
 - Hong Wang

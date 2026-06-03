@@ -1,6 +1,5 @@
 ---
 title: "Logic Control of Interface-Induced Charge-Trapping Effect for Ultrasensitive Gas Detection with All-Mirror-Image Symmetry"
-  Gas Detection with All-Mirror-Image Symmetry
 authors:
 - Chuancheng Jia
 - Qing Wang

@@ -1,5 +1,5 @@
 ---
-title: Nonvolatile Ferroic and Topological Phase Control under Nonresonant Light
+title: "Nonvolatile Ferroic and Topological Phase Control under Nonresonant Light"
 authors:
 - Jian Zhou
 - Hanli Cui

@@ -1,6 +1,5 @@
 ---
 title: "Toggling valley-spin locking and nonlinear optical properties of single-element multiferroic monolayers via light"
-  multiferroic monolayers via light
 authors:
 - Yiming Pan
 - Jian Zhou

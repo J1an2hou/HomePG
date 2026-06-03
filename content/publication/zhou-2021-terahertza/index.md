@@ -1,6 +1,5 @@
 ---
 title: "Terahertz Driven Reversible Topological Phase Transition of Monolayer Transition Metal Dichalcogenides"
-  Metal Dichalcogenides
 authors:
 - Jian Zhou
 - Haowei Xu

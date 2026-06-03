@@ -1,5 +1,5 @@
 ---
-title: Terahertz optics-driven phase transition in two-dimensional multiferroics
+title: "Terahertz optics-driven phase transition in two-dimensional multiferroics"
 authors:
 - Jian Zhou
 - Shunhong Zhang

@@ -1,6 +1,5 @@
 ---
 title: "Rational Design of Endohedral Superhalogens without Using Metal Cations and Electron Counting Rules"
-  Electron Counting Rules
 authors:
 - Qianqian Xue
 - Mingmin Zhong

@@ -1,5 +1,5 @@
 ---
-title: High-temperature superconductivity in heavily N- or B-doped graphene
+title: "High-temperature superconductivity in heavily N- or B-doped graphene"
 authors:
 - Jian Zhou
 - Qiang Sun

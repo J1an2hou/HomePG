@@ -1,6 +1,5 @@
 ---
 title: "Lattice dynamic and instability in pentasilicene: A light single-element ferroelectric material with high Curie temperature"
-  material with high Curie temperature'
 authors:
 - Yaguang Guo
 - Cunzhi Zhang

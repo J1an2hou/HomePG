@@ -1,6 +1,5 @@
 ---
 title: "Strain and Carrier Induced Coexistence of Topologically Insulating and Superconducting Phase in Iodized Si(111) Films"
-  Phase in Iodized Si(111) Films
 authors:
 - Jian Zhou
 - Qian Wang

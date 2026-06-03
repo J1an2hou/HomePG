@@ -1,5 +1,5 @@
 ---
-title: Ferromagnetism in semihydrogenated graphene sheet
+title: "Ferromagnetism in semihydrogenated graphene sheet"
 authors:
 - J. Zhou
 - Q. Wang

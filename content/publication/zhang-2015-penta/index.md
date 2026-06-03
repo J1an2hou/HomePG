@@ -1,5 +1,5 @@
 ---
-title: 'Penta-Graphene: A New Carbon Allotrope'
+title: "Penta-Graphene: A New Carbon Allotrope"
 authors:
 - Shunhong Zhang
 - Jian Zhou

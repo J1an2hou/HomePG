@@ -1,5 +1,5 @@
 ---
-title: Electric field enhanced hydrogen storage on polarizable materials substrates
+title: "Electric field enhanced hydrogen storage on polarizable materials substrates"
 authors:
 - J. Zhou
 - Q. Wang

@@ -1,6 +1,5 @@
 ---
 title: "Electronic Structure and Stability of Mono- and Bi-metallic Borohydrides and Their Underlying Hydrogen-Storage Properties--A Cluster Study"
-  Their Underlying Hydrogen-Storage Properties--A Cluster Study
 authors:
 - Yuzhen Liu
 - Jian Zhou

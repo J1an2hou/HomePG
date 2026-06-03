@@ -1,6 +1,5 @@
 ---
 title: "20-electron exohedral alkaline-earth-metallofullerenes M(C60)3 (M = Ca, Sr, Ba)"
-  Ba)
 authors:
 - Feiyang Huang
 - Jian Zhou

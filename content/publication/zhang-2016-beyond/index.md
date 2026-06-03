@@ -1,5 +1,5 @@
 ---
-title: 'Beyond Graphitic Carbon Nitride: Nitrogen-Rich Penta-CN2 Sheet'
+title: "Beyond Graphitic Carbon Nitride: Nitrogen-Rich Penta-CN2 Sheet"
 authors:
 - Shunhong Zhang
 - Jian Zhou

@@ -1,6 +1,5 @@
 ---
 title: "Quantum Phase Transition in Germanene and Stanene Bilayer: From Normal Metal to Topological Insulator"
-  to Topological Insulator'
 authors:
 - Chengxi Huang
 - Jian Zhou

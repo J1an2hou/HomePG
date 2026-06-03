@@ -1,5 +1,5 @@
 ---
-title: 'Interaction of C59Si with Si based clusters: a study of Janus nanostructures'
+title: "Interaction of C59Si with Si based clusters: a study of Janus nanostructures"
 authors:
 - Miao Miao Wu
 - Xiao Zhou

@@ -1,6 +1,5 @@
 ---
 title: "Quasi-Solid-State Conversion with Fast Redox Kinetics Enabled by A Sulfonamide-Based Electrolyte in Li-Organic Batteries"
-  Electrolyte in Li-Organic Batteries
 authors:
 - Huang Cai
 - Xinke Cui

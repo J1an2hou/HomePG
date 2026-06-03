@@ -1,6 +1,5 @@
 ---
 title: "Valley contrasting in epitaxial growth of In/Tl homoatomic monolayer with anomalous Nernst conductance"
-  Nernst conductance
 authors:
 - Jian Zhou
 - Chengxi Huang

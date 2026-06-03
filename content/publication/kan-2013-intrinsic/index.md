@@ -1,5 +1,5 @@
 ---
-title: The Intrinsic Ferromagnetism in a MnO2 Monolayer
+title: "The Intrinsic Ferromagnetism in a MnO2 Monolayer"
 authors:
 - Min Kan
 - Jian Zhou

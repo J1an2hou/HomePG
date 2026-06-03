@@ -1,6 +1,5 @@
 ---
 title: "Tuning magnetic properties of graphene nanoribbons with topological line defects: From antiferromagnetic to ferromagnetic"
-  From antiferromagnetic to ferromagnetic'
 authors:
 - Min Kan
 - Jian Zhou

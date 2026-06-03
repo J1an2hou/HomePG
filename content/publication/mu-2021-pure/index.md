@@ -1,5 +1,5 @@
 ---
-title: Pure bulk orbital and spin photocurrent in two-dimensional ferroelectric materials
+title: "Pure bulk orbital and spin photocurrent in two-dimensional ferroelectric materials"
 authors:
 - Xingchi Mu
 - Yiming Pan

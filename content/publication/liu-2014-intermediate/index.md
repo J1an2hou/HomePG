@@ -1,6 +1,5 @@
 ---
 title: "Intermediate Phases during Decomposition of Metal Borohydrides, M(BH4)n (M = Na, Mg, Y)"
-  = Na, Mg, Y)
 authors:
 - Yuzhen Liu
 - Santanab Giri

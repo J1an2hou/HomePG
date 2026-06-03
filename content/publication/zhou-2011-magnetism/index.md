@@ -1,5 +1,5 @@
 ---
-title: Magnetism of Phthalocyanine-Based Organometallic Single Porous Sheet
+title: "Magnetism of Phthalocyanine-Based Organometallic Single Porous Sheet"
 authors:
 - Jian Zhou
 - Qiang Sun

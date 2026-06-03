@@ -1,5 +1,5 @@
 ---
-title: Tripyrrylmethane based 2D porous structure for hydrogen storage
+title: "Tripyrrylmethane based 2D porous structure for hydrogen storage"
 authors:
 - Xiao Zhou
 - Jian Zhou

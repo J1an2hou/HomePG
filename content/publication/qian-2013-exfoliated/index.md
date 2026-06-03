@@ -1,6 +1,5 @@
 ---
 title: "Exfoliated graphene-supported Pt and Pt-based alloys as electrocatalysts for direct methanol fuel cells"
-  direct methanol fuel cells
 authors:
 - Wen Qian
 - Rui Hao

@@ -1,6 +1,5 @@
 ---
 title: "Light-induced quantum anomalous Hall effect on the 2D surfaces of 3D topological insulators"
-  insulators
 authors:
 - Haowei Xu
 - Jian Zhou

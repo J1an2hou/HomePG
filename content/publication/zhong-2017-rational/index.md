@@ -1,5 +1,5 @@
 ---
-title: Rational Design of Stable Dianions by Functionalizing Polycyclic Aromatic Hydrocarbons
+title: "Rational Design of Stable Dianions by Functionalizing Polycyclic Aromatic Hydrocarbons"
 authors:
 - Mingmin Zhong
 - Jian Zhou

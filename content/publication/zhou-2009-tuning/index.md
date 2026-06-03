@@ -1,5 +1,5 @@
 ---
-title: Tuning electronic and magnetic properties of graphene by surface modification
+title: "Tuning electronic and magnetic properties of graphene by surface modification"
 authors:
 - J. Zhou
 - M. M. Wu

@@ -1,6 +1,5 @@
 ---
 title: "dz2 Band Links Frontier Orbitals and Charge Carrier Dynamics of Single-Atom Cocatalyst-Aided Photocatalytic H2 Production"
-  Cocatalyst-Aided Photocatalytic H2 Production
 authors:
 - Yiwei Fu
 - Kejian Lu

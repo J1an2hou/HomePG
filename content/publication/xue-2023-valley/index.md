@@ -1,5 +1,5 @@
 ---
-title: Valley contrasting bulk photovoltaic effect in a PT-symmetric MnPSe3 monolayer
+title: "Valley contrasting bulk photovoltaic effect in a PT-symmetric MnPSe3 monolayer"
 authors:
 - Qianqian Xue
 - Xingchi Mu

@@ -1,6 +1,5 @@
 ---
 title: "Sub-Angstrom Characterization of Structural Origin for High In-Plane Anisotropy in 2D GeS2"
-  in 2D GeS2
 authors:
 - Xudong Wang
 - Jieling Tan

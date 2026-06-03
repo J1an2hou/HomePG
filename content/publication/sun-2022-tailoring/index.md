@@ -1,5 +1,5 @@
 ---
-title: Tailoring photoinduced nonequilibrium magnetizations in In2Se3 bilayers
+title: "Tailoring photoinduced nonequilibrium magnetizations in In2Se3 bilayers"
 authors:
 - Yan Sun
 - Xingchi Mu

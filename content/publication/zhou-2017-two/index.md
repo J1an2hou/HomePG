@@ -1,6 +1,5 @@
 ---
 title: "Two-dimensional topological crystalline quantum spin Hall effect in transition metal intercalated compounds"
-  metal intercalated compounds
 authors:
 - Jian Zhou
 - Puru Jena

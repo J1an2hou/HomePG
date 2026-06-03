@@ -1,6 +1,5 @@
 ---
 title: "Recent Advances of Bulk Photovoltaic Effect in Exotic Quantum Materials: Progress and Challenges"
-  and Challenges'
 authors:
 - Yiwei Zhao
 - Qianqian Xue

@@ -1,6 +1,5 @@
 ---
 title: "Toward Room-temperature Electrical Control of Magnetic Order in Multiferroic van der Waals Materials"
-  van der Waals Materials
 authors:
 - Chengxi Huang
 - Jian Zhou

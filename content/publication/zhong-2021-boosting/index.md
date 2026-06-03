@@ -1,6 +1,5 @@
 ---
 title: "Boosting oxygen reduction activity and enhancing stability through structural transformation of layered lithium manganese oxide"
-  transformation of layered lithium manganese oxide
 authors:
 - Xuepeng Zhong
 - M'hamed Oubla

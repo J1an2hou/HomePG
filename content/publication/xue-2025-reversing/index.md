@@ -1,6 +1,5 @@
 ---
 title: "Reversing Néel Vector in Parity-Time Antiferromagnets by Nonreciprocal Light Scattering"
-  Scattering
 authors:
 - Qianqian Xue
 - Jian Zhou

@@ -1,5 +1,5 @@
 ---
-title: Spin glass behavior in amorphous Cr2Ge2Te6 phase-change alloy
+title: "Spin glass behavior in amorphous Cr2Ge2Te6 phase-change alloy"
 authors:
 - Xiaozhe Wang
 - Suyang Sun

@@ -1,5 +1,5 @@
 ---
-title: Nonresonant Raman control of ferroelectric polarization
+title: "Nonresonant Raman control of ferroelectric polarization"
 authors:
 - Jiaojian Shi
 - Christian Heide

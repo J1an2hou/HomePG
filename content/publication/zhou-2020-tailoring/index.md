@@ -1,6 +1,5 @@
 ---
 title: "Tailoring geometric phases of two-dimensional functional materials under light: a brief review"
-  a brief review'
 authors:
 - Jian Zhou
 date: '2020-01-01'

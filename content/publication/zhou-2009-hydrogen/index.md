@@ -1,5 +1,5 @@
 ---
-title: Hydrogen storage in Al-N cage based nanostructures
+title: "Hydrogen storage in Al-N cage based nanostructures"
 authors:
 - X. Zhou
 - M. M. Wu

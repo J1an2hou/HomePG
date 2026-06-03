@@ -1,6 +1,5 @@
 ---
 title: "Synergetic ligand and size effects of boron cage based electrolyte in Li-ion battery"
-  battery
 authors:
 - Xiao Li
 - Tao Yang

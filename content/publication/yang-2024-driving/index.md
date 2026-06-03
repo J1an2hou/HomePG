@@ -1,6 +1,5 @@
 ---
 title: "Driving and detecting topological phase transition in noncentrosymmetric systems via an all-optical approach"
-  via an all-optical approach
 authors:
 - Mengtong Yang
 - Xiaoyan Miao

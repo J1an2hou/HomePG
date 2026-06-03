@@ -1,5 +1,5 @@
 ---
-title: Bulk photovoltaic effects in helimagnets
+title: "Bulk photovoltaic effects in helimagnets"
 authors:
 - Chunmei Zhang
 - Hanqi Pi

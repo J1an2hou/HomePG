@@ -1,6 +1,5 @@
 ---
 title: "Intrinsic Quantum Spin Hall and Anomalous Hall Effect in h-Sb/Bi Epitaxial Growth on Ferromagnetic MnO2 Thin Film"
-  Growth on Ferromagnetic MnO2 Thin Film
 authors:
 - Jian Zhou
 - Qiang Sun

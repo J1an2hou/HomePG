@@ -1,5 +1,5 @@
 ---
-title: Strain-modulated bulk photovoltaic effect in negative piezoelectrics
+title: "Strain-modulated bulk photovoltaic effect in negative piezoelectrics"
 authors:
 - Yue Gao
 - Jian Zhou

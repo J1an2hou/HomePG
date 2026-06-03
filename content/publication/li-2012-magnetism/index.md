@@ -1,5 +1,5 @@
 ---
-title: Magnetism of two-dimensional triangular nanoflake-based kagome lattices
+title: "Magnetism of two-dimensional triangular nanoflake-based kagome lattices"
 authors:
 - Xiaowei Li
 - Jian Zhou

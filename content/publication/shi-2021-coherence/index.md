@@ -1,6 +1,5 @@
 ---
 title: "Coherence control of directional nonlinear photocurrent in spatially symmetric systems"
-  systems
 authors:
 - Yongliang Shi
 - Jian Zhou

@@ -1,5 +1,5 @@
 ---
-title: Designing inorganic semiconductors with cold-rolling processability
+title: "Designing inorganic semiconductors with cold-rolling processability"
 authors:
 - Xu-Dong Wang
 - Jieling Tan

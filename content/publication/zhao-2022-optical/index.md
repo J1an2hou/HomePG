@@ -1,6 +1,5 @@
 ---
 title: "Optical generation and electric control of pure spin photocurrent in ferroelectric Ruddlesden-Popper perovskite (MA)2Pb(SCN)2I2 monolayer"
-  Ruddlesden-Popper perovskite (MA)2Pb(SCN)2I2 monolayer
 authors:
 - Yue Zhao
 - Xingchi Mu

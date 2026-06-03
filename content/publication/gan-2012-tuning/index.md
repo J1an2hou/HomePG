@@ -1,5 +1,5 @@
 ---
-title: Tuning the properties of graphene using a reversible gas-phase reaction
+title: "Tuning the properties of graphene using a reversible gas-phase reaction"
 authors:
 - Lin Gan
 - Jian Zhou

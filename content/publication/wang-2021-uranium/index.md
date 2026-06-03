@@ -1,6 +1,5 @@
 ---
 title: "Uranium In Situ Electrolytic Deposition with a Reusable Functional Graphene-Foam Electrode"
-  Electrode
 authors:
 - Chao Wang
 - Ahmed S. Helal

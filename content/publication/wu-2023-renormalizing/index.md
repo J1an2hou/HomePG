@@ -1,5 +1,5 @@
 ---
-title: Renormalizing Antiferroelectric Nanostripes in β'-In2Se3 via Optomechanics
+title: "Renormalizing Antiferroelectric Nanostripes in β'-In2Se3 via Optomechanics"
 authors:
 - Zihang Wu
 - Kun Liu

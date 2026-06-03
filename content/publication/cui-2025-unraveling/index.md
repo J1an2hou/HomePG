@@ -1,6 +1,5 @@
 ---
 title: "Unraveling phase transformation with phononic hyperbolicity using off-resonant terahertz light"
-  terahertz light
 authors:
 - Hanli Cui
 - Jian Zhou

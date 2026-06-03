@@ -1,6 +1,5 @@
 ---
 title: "A π-Conjugated Polyimide-Based High-Performance Aqueous Potassium-Ion Asymmetric Supercapacitor"
-  Supercapacitor
 authors:
 - Yaoyao Zhao
 - Shicong Zhang

@@ -1,6 +1,5 @@
 ---
 title: "In-Sublattice Carrier Transition Enabled Polarimetric Photodetectors with Reconfigurable Polarity Transition"
-  Polarity Transition
 authors:
 - Dongyan Li
 - Zexin Li

@@ -1,6 +1,5 @@
 ---
 title: "Layer number dependent ferroelasticity in 2D Ruddlesden-Popper organic-inorganic hybrid perovskites"
-  hybrid perovskites
 authors:
 - Xun Xiao
 - Jian Zhou

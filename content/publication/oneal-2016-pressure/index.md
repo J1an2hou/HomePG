@@ -1,6 +1,5 @@
 ---
 title: "Pressure-induced structural transition in copper pyrazine dinitrate and implications for quantum magnetism"
-  for quantum magnetism
 authors:
 - K. R. O'Neal
 - J. Zhou

@@ -1,5 +1,5 @@
 ---
-title: A Multiferroic Iron Arsenide Monolayer
+title: "A Multiferroic Iron Arsenide Monolayer"
 authors:
 - Xiaoyu Xuan
 - Tingfan Yang

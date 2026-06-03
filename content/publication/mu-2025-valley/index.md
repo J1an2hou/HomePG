@@ -1,6 +1,5 @@
 ---
 title: "Valley-dependent giant orbital moments and transport features in rhombohedral graphene multilayers"
-  graphene multilayers
 authors:
 - Xingchi Mu
 - Jian Zhou

@@ -1,6 +1,5 @@
 ---
 title: "Giant Photonic Response of Mexican-Hat Topological Semiconductors for Mid-Infrared to THz Applications"
-  to THz Applications
 authors:
 - Haowei Xu
 - Jian Zhou

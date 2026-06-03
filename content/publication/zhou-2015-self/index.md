@@ -1,5 +1,5 @@
 ---
-title: Self-assembly of metal atoms (Na, K, Ca) on graphene
+title: "Self-assembly of metal atoms (Na, K, Ca) on graphene"
 authors:
 - Jian Zhou
 - Shunhong Zhang

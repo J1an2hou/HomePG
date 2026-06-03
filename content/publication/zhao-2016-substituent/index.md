@@ -1,6 +1,5 @@
 ---
 title: "Substituent-Stabilized Organic Dianions in the Gas Phase and Their Potential Use as Electrolytes in Lithium-Ion Batteries"
-  Use as Electrolytes in Lithium-Ion Batteries
 authors:
 - Hongmin Zhao
 - Jian Zhou

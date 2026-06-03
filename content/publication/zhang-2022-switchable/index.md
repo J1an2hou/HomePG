@@ -1,6 +1,5 @@
 ---
 title: "Switchable topological phase transition and nonlinear optical properties in a ReC2H monolayer"
-  a ReC2H monolayer
 authors:
 - Chunmei Zhang
 - Hanqi Pi

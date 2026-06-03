@@ -1,5 +1,5 @@
 ---
-title: Pure spin and orbital bulk photovoltaic effect in topological screw dislocations
+title: "Pure spin and orbital bulk photovoltaic effect in topological screw dislocations"
 authors:
 - Mengtong Yang
 - Chunmei Zhang

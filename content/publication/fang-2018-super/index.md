@@ -1,5 +1,5 @@
 ---
-title: Super-alkalis as Building Blocks of One-Dimensional Hierarchical Electride
+title: "Super-alkalis as Building Blocks of One-Dimensional Hierarchical Electride"
 authors:
 - Hong Fang
 - Jian Zhou

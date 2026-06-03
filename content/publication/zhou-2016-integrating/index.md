@@ -1,6 +1,5 @@
 ---
 title: "Integrating superconducting phase and topological crystalline quantum spin Hall effect in hafnium intercalated gallium film"
-  Hall effect in hafnium intercalated gallium film
 authors:
 - Jian Zhou
 - Shunhong Zhang

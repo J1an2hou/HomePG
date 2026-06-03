@@ -1,5 +1,5 @@
 ---
-title: Designing stable closo-B12 dianions in silico for Li- and Mg-ion battery applications
+title: "Designing stable closo-B12 dianions in silico for Li- and Mg-ion battery applications"
 authors:
 - Jianzhi Xu
 - Mengyang Li

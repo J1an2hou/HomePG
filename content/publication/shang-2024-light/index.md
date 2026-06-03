@@ -1,6 +1,5 @@
 ---
 title: "Light-induced pure spin transportation in twisted atomic wires of transition metal trichalcogenides"
-  metal trichalcogenides
 authors:
 - Chanjuan Shang
 - Haoxiang Dong

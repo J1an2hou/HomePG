@@ -1,5 +1,5 @@
 ---
-title: A Two-Plateaus Li-Se Chemistry for High-Volumetric-Capacity Se Cathodes
+title: "A Two-Plateaus Li-Se Chemistry for High-Volumetric-Capacity Se Cathodes"
 authors:
 - Xiaoqun Qi
 - Ying Yang

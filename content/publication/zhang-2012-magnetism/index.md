@@ -1,5 +1,5 @@
 ---
-title: Magnetism of triangular nanoflakes with different compositions and edge terminations
+title: "Magnetism of triangular nanoflakes with different compositions and edge terminations"
 authors:
 - Shunhong Zhang
 - Jian Zhou

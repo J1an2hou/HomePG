@@ -1,5 +1,5 @@
 ---
-title: Colossal switchable photocurrents in topological Janus transition metal dichalcogenides
+title: "Colossal switchable photocurrents in topological Janus transition metal dichalcogenides"
 authors:
 - Haowei Xu
 - Hua Wang

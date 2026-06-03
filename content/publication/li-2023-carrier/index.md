@@ -1,6 +1,5 @@
 ---
 title: "Carrier driven magnetic and topological phase transition in two-dimensional III-V semiconductors"
-  III-V semiconductors
 authors:
 - Yan Li
 - Xinru Ma

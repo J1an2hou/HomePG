@@ -1,6 +1,5 @@
 ---
 title: "Experimental and Theoretical Analysis of Fast Lithium Ionic Conduction in a LiBH4-C60 Nanocomposite"
-  LiBH4-C60 Nanocomposite
 authors:
 - Joseph A. Teprovich Jr.
 - Hector R. Colon-Mercado

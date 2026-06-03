@@ -1,5 +1,5 @@
 ---
-title: 'Colossal Stability of Gas Phase Tri-anions: Super-pnictogens'
+title: "Colossal Stability of Gas Phase Tri-anions: Super-pnictogens"
 authors:
 - Tianshan Zhao
 - Jian Zhou

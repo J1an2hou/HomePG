@@ -1,6 +1,5 @@
 ---
 title: "A general thermodynamics-triggered competitive growth model to guide the synthesis of two-dimensional nonlayered materials"
-  of two-dimensional nonlayered materials
 authors:
 - Zijing Zhao
 - Zhi Fang

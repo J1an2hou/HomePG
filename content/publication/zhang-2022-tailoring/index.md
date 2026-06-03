@@ -1,5 +1,5 @@
 ---
-title: Tailoring Bulk Photovoltaic Effects in Magnetic Sliding Ferroelectric Materials
+title: "Tailoring Bulk Photovoltaic Effects in Magnetic Sliding Ferroelectric Materials"
 authors:
 - Chunmei Zhang
 - Ping Guo

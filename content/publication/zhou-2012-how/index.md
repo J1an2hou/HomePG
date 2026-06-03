@@ -1,5 +1,5 @@
 ---
-title: How to fabricate a semihydrogenated graphene sheet? A promising strategy explored
+title: "How to fabricate a semihydrogenated graphene sheet? A promising strategy explored"
 authors:
 - Jian Zhou
 - Qiang Sun

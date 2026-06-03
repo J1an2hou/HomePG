@@ -1,6 +1,5 @@
 ---
 title: "Layer-dependent disorder controlling shift current generation in two-dimensional centrosymmetric systems"
-  centrosymmetric systems
 authors:
 - Yiwei Zhao
 - Xiantuo Zhao

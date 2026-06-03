@@ -1,5 +1,5 @@
 ---
-title: Band-Edge Mixture Engineered Giant and Switchable Shift Current Generation
+title: "Band-Edge Mixture Engineered Giant and Switchable Shift Current Generation"
 authors:
 - Yue Gao
 - Mengtong Yang

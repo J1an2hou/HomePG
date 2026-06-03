@@ -1,5 +1,5 @@
 ---
-title: Patterning Graphitic C-N Sheets into Kagome Lattice for Magnetic Materials
+title: "Patterning Graphitic C-N Sheets into Kagome Lattice for Magnetic Materials"
 authors:
 - Xiaowei Li
 - Jian Zhou

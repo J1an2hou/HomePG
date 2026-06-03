@@ -1,5 +1,5 @@
 ---
-title: Unusual Stability of Multiply Charged Organo-Metallic Complexes
+title: "Unusual Stability of Multiply Charged Organo-Metallic Complexes"
 authors:
 - Santanab Giri
 - Brandon Z. Child

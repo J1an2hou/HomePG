@@ -1,5 +1,5 @@
 ---
-title: Structure, Stability and Property Modulations of Stoichiometric Graphene Oxide
+title: "Structure, Stability and Property Modulations of Stoichiometric Graphene Oxide"
 authors:
 - Shunhong Zhang
 - Jian Zhou

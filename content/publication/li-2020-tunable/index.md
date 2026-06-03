@@ -1,6 +1,5 @@
 ---
 title: "Tunable charge density wave in a black/blue phosphorene lateral heterostructure: A first-principles calculation"
-  A first-principles calculation'
 authors:
 - Yan Li
 - Hongwei Bao

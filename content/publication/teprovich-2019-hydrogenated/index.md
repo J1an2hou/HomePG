@@ -1,5 +1,5 @@
 ---
-title: Hydrogenated C60 as high-capacity stable anode materials for Li-ion batteries
+title: "Hydrogenated C60 as high-capacity stable anode materials for Li-ion batteries"
 authors:
 - Joseph A. Teprovich Jr.
 - Jason A. Weeks

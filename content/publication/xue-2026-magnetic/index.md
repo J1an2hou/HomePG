@@ -1,5 +1,5 @@
 ---
-title: Magnetic precession induced spin accumulation in collinear antiferromagnets
+title: "Magnetic precession induced spin accumulation in collinear antiferromagnets"
 authors:
 - Qianqian Xue
 - Jian Zhou

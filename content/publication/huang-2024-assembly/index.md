@@ -1,6 +1,5 @@
 ---
 title: "Assembly-inspired multiferroicity with nontrivial Chern insulating phase from exohedral metallofullerenes"
-  exohedral metallofullerenes
 authors:
 - Feiyang Huang
 - Mo Xiong

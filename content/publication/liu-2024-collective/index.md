@@ -1,6 +1,5 @@
 ---
 title: "Collective octahedral tilting in ultrathin Ruddlesden-Popper perovskite under terahertz light"
-  terahertz light
 authors:
 - Kun Liu
 - Jian Zhou

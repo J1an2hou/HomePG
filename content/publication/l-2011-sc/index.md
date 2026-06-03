@@ -1,5 +1,5 @@
 ---
-title: 'Sc-phthalocyanine sheet: Promising material for hydrogen storage'
+title: "Sc-phthalocyanine sheet: Promising material for hydrogen storage"
 authors:
 - Kun Lü
 - Jian Zhou

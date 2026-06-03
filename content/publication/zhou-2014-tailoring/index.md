@@ -1,5 +1,5 @@
 ---
-title: Tailoring Li adsorption on graphene
+title: "Tailoring Li adsorption on graphene"
 authors:
 - Jian Zhou
 - Qiang Sun

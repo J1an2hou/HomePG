@@ -1,5 +1,5 @@
 ---
-title: Strain-Induced Spin Crossover in Phthalocyanine-Based Organometallic Sheets
+title: "Strain-Induced Spin Crossover in Phthalocyanine-Based Organometallic Sheets"
 authors:
 - Jian Zhou
 - Qian Wang

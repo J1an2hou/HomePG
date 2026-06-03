@@ -1,6 +1,5 @@
 ---
 title: "Absorption induced modulation of magnetism in two-dimensional metal phthalocyanine porous sheets"
-  porous sheets
 authors:
 - Jian Zhou
 - Qiang Sun

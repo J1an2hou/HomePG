@@ -1,5 +1,5 @@
 ---
-title: Valley-Polarized Quantum Anomalous Hall Effect in Ferrimagnetic Honeycomb Lattices
+title: "Valley-Polarized Quantum Anomalous Hall Effect in Ferrimagnetic Honeycomb Lattices"
 authors:
 - Jian Zhou
 - Qiang Sun

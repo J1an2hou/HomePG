@@ -1,6 +1,5 @@
 ---
 title: "Giant Valley Splitting and Valley Polarized Plasmonics in Group-V Transition-Metal Dichalcogenide Monolayers"
-  Dichalcogenide Monolayers
 authors:
 - Jian Zhou
 - Puru Jena

@@ -1,6 +1,5 @@
 ---
 title: "2D edge-seeded heteroepitaxy of ultrathin high-κ dielectric CaNb2O6 for 2D field-effect transistors"
-  field-effect transistors
 authors:
 - Xiulian Fan
 - Jiali Yi

@@ -1,5 +1,5 @@
 ---
-title: Magnetic proximity enabled bulk photovoltaic effects in van der Waals heterostructures
+title: "Magnetic proximity enabled bulk photovoltaic effects in van der Waals heterostructures"
 authors:
 - Xingchi Mu
 - Qianqian Xue

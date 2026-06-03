@@ -1,6 +1,5 @@
 ---
 title: "Investigation of hydrogen induced fluorescence in C60 and its potential use in luminescent down shifting applications"
-  in luminescent down shifting applications
 authors:
 - J. A. Teprovich Jr.
 - A. L. Washington II

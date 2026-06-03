@@ -1,6 +1,5 @@
 ---
 title: "Near-infrared optical properties and proposed phase-change usefulness of transition metal disulfides"
-  metal disulfides
 authors:
 - Akshay Singh
 - Yifei Li

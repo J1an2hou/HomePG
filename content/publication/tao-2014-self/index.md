@@ -1,6 +1,5 @@
 ---
 title: "Self-consistent determination of Hubbard U for explaining the anomalous magnetism of the Gd13 cluster"
-  of the Gd13 cluster
 authors:
 - Kun Tao
 - Jian Zhou

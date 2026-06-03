@@ -1,5 +1,5 @@
 ---
-title: Shift current response in elemental two-dimensional ferroelectrics
+title: "Shift current response in elemental two-dimensional ferroelectrics"
 authors:
 - Zhuang Qian
 - Jian Zhou

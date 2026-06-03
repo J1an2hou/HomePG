@@ -1,6 +1,5 @@
 ---
 title: "Electronic and magnetic properties of a BN sheet decorated with hydrogen and fluorine"
-  fluorine
 authors:
 - Jian Zhou
 - Qian Wang

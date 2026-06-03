@@ -1,5 +1,5 @@
 ---
-title: Photo-magnetization in two-dimensional sliding ferroelectrics
+title: "Photo-magnetization in two-dimensional sliding ferroelectrics"
 authors:
 - Jian Zhou
 date: '2022-01-01'

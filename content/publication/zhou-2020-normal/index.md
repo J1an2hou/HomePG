@@ -1,6 +1,5 @@
 ---
 title: "Normal-to-Topological Insulator Martensitic Phase Transition in Group-IV Monochalcogenides Driven by Light"
-  Driven by Light
 authors:
 - Jian Zhou
 - Shunhong Zhang

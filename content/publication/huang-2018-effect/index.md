@@ -1,5 +1,5 @@
 ---
-title: Effect of Coulomb Correlation on the Magnetic Properties of Mn Clusters
+title: "Effect of Coulomb Correlation on the Magnetic Properties of Mn Clusters"
 authors:
 - Chengxi Huang
 - Jian Zhou

@@ -1,5 +1,5 @@
 ---
-title: Two-dimensional topological nanomaterials and related Hall effects
+title: "Two-dimensional topological nanomaterials and related Hall effects"
 authors:
 - Jian Zhou
 - Puru Jena

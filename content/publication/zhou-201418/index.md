@@ -1,5 +1,5 @@
 ---
-title: 18-Electron rule inspired Zintl-like ions composed of all transition metals
+title: "18-Electron rule inspired Zintl-like ions composed of all transition metals"
 authors:
 - Jian Zhou
 - Santanab Giri

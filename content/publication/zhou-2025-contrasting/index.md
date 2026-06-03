@@ -1,6 +1,5 @@
 ---
 title: "Contrasting Light-Induced Spin Torque in Antiferromagnetic and Altermagnetic Systems"
-  Systems
 authors:
 - Jian Zhou
 - Chunmei Zhang

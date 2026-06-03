@@ -1,6 +1,5 @@
 ---
 title: "Light-Induced Topological Phase Transition with Tunable Layer Hall Effect in Axion Antiferromagnets"
-  Axion Antiferromagnets
 authors:
 - Cong Zhou
 - Jian Zhou

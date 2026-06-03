@@ -1,6 +1,5 @@
 ---
 title: "Pre-combustion CO2 capture by transition metal ions embedded in phthalocyanine sheets"
-  sheets
 authors:
 - Kun Lü
 - Jian Zhou

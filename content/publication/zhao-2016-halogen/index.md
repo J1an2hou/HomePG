@@ -1,6 +1,5 @@
 ---
 title: "From Halogen to Superhalogen Behavior of Organic Molecules Created by Functionalizing Benzene"
-  Benzene
 authors:
 - Hongmin Zhao
 - Jian Zhou

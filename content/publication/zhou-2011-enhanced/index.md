@@ -1,5 +1,5 @@
 ---
-title: Enhanced Hydrogen Storage on Li Functionalized BC3 Nanotube
+title: "Enhanced Hydrogen Storage on Li Functionalized BC3 Nanotube"
 authors:
 - Jian Zhou
 - Qian Wang

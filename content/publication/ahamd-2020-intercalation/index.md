@@ -1,6 +1,5 @@
 ---
 title: "Intercalation induced ferromagnetism in group-V transition metal dichalcogenide bilayer"
-  bilayer
 authors:
 - H. M. R. Ahamd
 - Jian Zhou

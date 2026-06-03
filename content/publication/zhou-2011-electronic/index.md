@@ -1,5 +1,5 @@
 ---
-title: Electronic structures and bonding of graphyne sheet and its BN analog
+title: "Electronic structures and bonding of graphyne sheet and its BN analog"
 authors:
 - Jian Zhou
 - Kun Lü

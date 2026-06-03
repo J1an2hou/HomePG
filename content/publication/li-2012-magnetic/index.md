@@ -1,6 +1,5 @@
 ---
 title: "Magnetic properties of two-dimensional silicon carbide triangular nanoflakes-based kagome lattices"
-  kagome lattices
 authors:
 - Xiaowei Li
 - Jian Zhou

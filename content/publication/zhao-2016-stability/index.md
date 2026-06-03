@@ -1,5 +1,5 @@
 ---
-title: 'Stability of B12(CN)12 2-: Implications for Lithium and Magnesium Ion Batteries'
+title: "Stability of B12(CN)12 2-: Implications for Lithium and Magnesium Ion Batteries"
 authors:
 - Hongmin Zhao
 - Jian Zhou

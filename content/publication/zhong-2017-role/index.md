@@ -1,6 +1,5 @@
 ---
 title: "Role of ligands on the stability of BnXn and CBn-1Xn (n = 5-10; X = H, F, CN) and their potential as building blocks of electrolytes in lithium ion batteries"
-  and their potential as building blocks of electrolytes in lithium ion batteries
 authors:
 - Mingmin Zhong
 - Jian Zhou

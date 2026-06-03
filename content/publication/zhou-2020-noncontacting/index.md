@@ -1,6 +1,5 @@
 ---
 title: "Noncontacting optostriction driven anisotropic and inhomogeneous strain in two-dimensional materials"
-  two-dimensional materials
 authors:
 - Jian Zhou
 - Sheng Mao

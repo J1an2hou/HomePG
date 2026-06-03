@@ -1,6 +1,5 @@
 ---
 title: "Screening transition metal-based polar pentagonal monolayers with large piezoelectricity and shift current"
-  and shift current
 authors:
 - Yaguang Guo
 - Jian Zhou

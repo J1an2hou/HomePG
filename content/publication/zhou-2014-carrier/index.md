@@ -1,6 +1,5 @@
 ---
 title: "Carrier induced magnetic coupling transitions in phthalocyanine-based organometallic sheet"
-  sheet
 authors:
 - Jian Zhou
 - Qiang Sun

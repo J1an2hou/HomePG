@@ -1,5 +1,5 @@
 ---
-title: Anisotropic terahertz optostriction in group-IV monochalcogenide compounds
+title: "Anisotropic terahertz optostriction in group-IV monochalcogenide compounds"
 authors:
 - Kun Liu
 - Jian Zhou

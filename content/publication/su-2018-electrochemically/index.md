@@ -1,6 +1,5 @@
 ---
 title: "Electrochemically-mediated selective capture of heavy metal chromium and arsenic oxyanions from water"
-  oxyanions from water
 authors:
 - Xiao Su
 - Akihiro Kushima

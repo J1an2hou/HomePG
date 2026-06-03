@@ -1,5 +1,5 @@
 ---
-title: Photoinduced Rippling of Two-Dimensional Hexagonal Nitride Monolayers
+title: "Photoinduced Rippling of Two-Dimensional Hexagonal Nitride Monolayers"
 authors:
 - Kun Liu
 - Sheng Mao

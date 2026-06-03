@@ -1,5 +1,5 @@
 ---
-title: Quantum anomalous Hall effect in ferromagnetic transition metal halides
+title: "Quantum anomalous Hall effect in ferromagnetic transition metal halides"
 authors:
 - Chengxi Huang
 - Jian Zhou

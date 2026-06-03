@@ -1,5 +1,5 @@
 ---
-title: Using carbon chains to mediate magnetic coupling in zigzag graphene nanoribbons
+title: "Using carbon chains to mediate magnetic coupling in zigzag graphene nanoribbons"
 authors:
 - Min Kan
 - Jian Zhou

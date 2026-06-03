@@ -1,5 +1,5 @@
 ---
-title: A ferromagnetic and half-metallic FeC2 monolayer containing C2 dimers
+title: "A ferromagnetic and half-metallic FeC2 monolayer containing C2 dimers"
 authors:
 - Tianshan Zhao
 - Jian Zhou

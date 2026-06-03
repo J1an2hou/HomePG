@@ -1,6 +1,5 @@
 ---
 title: "Ultrafast Photocurrent Hysteresis in Photoferroelectric α-In2Se3 Diagnosed by Terahertz Emission Spectroscopy"
-  by Terahertz Emission Spectroscopy
 authors:
 - Zhen Lei
 - Jiawei Chang

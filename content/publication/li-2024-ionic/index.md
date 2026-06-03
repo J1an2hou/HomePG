@@ -1,5 +1,5 @@
 ---
-title: Ionic Photovoltaics-in-Memory in van der Waals Material
+title: "Ionic Photovoltaics-in-Memory in van der Waals Material"
 authors:
 - Dongyan Li
 - Zexin Li

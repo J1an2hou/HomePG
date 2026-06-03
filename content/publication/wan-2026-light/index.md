@@ -1,6 +1,5 @@
 ---
 title: "Light-Driven Ferroic Switching Enables Reversible Control of Hydrogen Adsorption Thermodynamics"
-  Thermodynamics
 authors:
 - Xueqing Wan
 - Zhenlong Zhang

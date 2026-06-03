@@ -1,5 +1,5 @@
 ---
-title: Nonlinear Optics-Driven Spin Reorientation in Ferromagnetic Semiconductors
+title: "Nonlinear Optics-Driven Spin Reorientation in Ferromagnetic Semiconductors"
 authors:
 - Qianqian Xue
 - Yan Sun

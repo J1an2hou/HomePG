@@ -1,6 +1,5 @@
 ---
 title: "Giant magnetocrystalline anisotropy of 5d transition metal-based phthalocyanine sheet"
-  sheet
 authors:
 - Jian Zhou
 - Qian Wang

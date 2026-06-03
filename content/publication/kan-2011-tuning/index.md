@@ -1,6 +1,5 @@
 ---
 title: "Tuning the band gap and magnetic properties of BN sheets impregnated with graphene flakes"
-  flakes
 authors:
 - Min Kan
 - Jian Zhou

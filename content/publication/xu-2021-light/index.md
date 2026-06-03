@@ -1,5 +1,5 @@
 ---
-title: 'Light-induced static magnetization: nonlinear Edelstein effect'
+title: "Light-induced static magnetization: nonlinear Edelstein effect"
 authors:
 - Haowei Xu
 - Jian Zhou

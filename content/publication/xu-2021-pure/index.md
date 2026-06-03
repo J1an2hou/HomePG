@@ -1,6 +1,5 @@
 ---
 title: "Pure spin photocurrent in non-centrosymmetric crystals: bulk spin photovoltaic effect"
-  effect'
 authors:
 - Haowei Xu
 - Hua Wang

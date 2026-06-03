@@ -1,5 +1,5 @@
 ---
-title: Current Induced Spin and Orbital Polarization in Magnetic Sliding Ferroelectrics
+title: "Current Induced Spin and Orbital Polarization in Magnetic Sliding Ferroelectrics"
 authors:
 - Haoxiang Dong
 - Jian Zhou

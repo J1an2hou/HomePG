@@ -1,5 +1,5 @@
 ---
-title: Stability and electronic structure of bilayer graphone
+title: "Stability and electronic structure of bilayer graphone"
 authors:
 - J. Zhou
 - Q. Wang

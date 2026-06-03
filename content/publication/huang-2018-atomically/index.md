@@ -1,6 +1,5 @@
 ---
 title: "Atomically dispersed tungsten on metal halide monolayer as a ferromagnetic Chern insulator"
-  Chern insulator
 authors:
 - Chengxi Huang
 - Kaiming Deng

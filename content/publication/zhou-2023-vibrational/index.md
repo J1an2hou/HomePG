@@ -1,6 +1,5 @@
 ---
 title: "Vibrational-anharmonicity-assisted phase transitions in perovskite oxides under terahertz irradiation"
-  terahertz irradiation
 authors:
 - Cong Zhou
 - Jian Zhou

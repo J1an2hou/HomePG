@@ -1,5 +1,5 @@
 ---
-title: Ultra-high-temperature Ferromagnetism in Intrinsic Tetrahedral Semiconductors
+title: "Ultra-high-temperature Ferromagnetism in Intrinsic Tetrahedral Semiconductors"
 authors:
 - Chengxi Huang
 - Junsheng Feng

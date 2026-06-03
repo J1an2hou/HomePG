@@ -1,5 +1,5 @@
 ---
-title: On-demand quantum spin Hall insulators controlled by two-dimensional ferroelectricity
+title: "On-demand quantum spin Hall insulators controlled by two-dimensional ferroelectricity"
 authors:
 - Jiawei Huang
 - Xu Duan

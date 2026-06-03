@@ -1,5 +1,5 @@
 ---
-title: Opto-mechanics driven fast martensitic transition in two-dimensional materials
+title: "Opto-mechanics driven fast martensitic transition in two-dimensional materials"
 authors:
 - Jian Zhou
 - Haowei Xu
