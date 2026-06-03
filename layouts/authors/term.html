@@ -1,56 +1,84 @@
 {{/*
   Author profile page override (blox-bootstrap v5): shows ONLY the profile,
-  no publication list. Save at:  layouts/authors/term.html
+  with NO publication list. Save at:  layouts/authors/term.html
+  Reads the profile from the author page at /authors/admin, exactly like the
+  theme's About block. If your author folder is not "admin", change the path
+  in the $person_page line below.
   To revert: delete this file.
 */}}
 {{ define "main" }}
+{{ $person_page := site.GetPage "/authors/admin" }}
 <div class="universal-wrapper pt-5 pb-5">
+  {{ with $person_page }}
+  {{ $person := .Params }}
   <div class="row">
 
-    <div class="col-12 col-lg-4 text-center">
-      {{ with .Resources.GetMatch "avatar*" }}
-        <img class="avatar avatar-circle"
-             style="width:200px;height:200px;object-fit:cover;border-radius:50%;"
-             src="{{ .RelPermalink }}" alt="{{ $.Title }}">
-      {{ end }}
-      <h2 class="mt-3 mb-1">{{ .Title }}</h2>
-      {{ with .Params.role }}<p class="mb-1">{{ . }}</p>{{ end }}
-      {{ range .Params.organizations }}
-        <p class="mb-1">
-          {{ if .url }}<a href="{{ .url | safeURL }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
-        </p>
-      {{ end }}
-      {{ with .Params.social }}
-        <ul class="network-icon list-inline mt-3">
-          {{ range . }}
-            {{ $prefix := "fa" }}{{ if eq .icon_pack "ai" }}{{ $prefix = "ai" }}{{ end }}
-            <li class="list-inline-item mx-2">
+    <div class="col-12 col-lg-4">
+      <div id="profile" class="text-center">
+        {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+        {{ with $avatar }}
+          {{ $img := .Fill "270x270 Center" }}
+          <img class="avatar avatar-circle"
+               width="{{ $img.Width }}" height="{{ $img.Height }}"
+               src="{{ $img.RelPermalink }}" alt="{{ $person_page.Title }}">
+        {{ end }}
+        <div class="portrait-title">
+          <h2>{{ $person_page.Title }}</h2>
+          {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+          {{ range $person.organizations }}
+            <h3>
+              {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+              <span>{{ .name }}</span>
+              {{ if .url }}</a>{{ end }}
+            </h3>
+          {{ end }}
+        </div>
+        <ul class="network-icon" aria-hidden="true">
+          {{ range $person.social }}
+            {{ $pack := or .icon_pack "fas" }}
+            {{ $pack_prefix := $pack }}
+            {{ if in (slice "fab" "fas" "far" "fal") $pack }}{{ $pack_prefix = "fa" }}{{ end }}
+            <li>
               <a href="{{ .link | safeURL }}" target="_blank" rel="noopener" aria-label="{{ .icon }}">
-                <i class="{{ .icon_pack }} {{ $prefix }}-{{ .icon }}" style="font-size:1.6rem;"></i>
+                <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
               </a>
             </li>
           {{ end }}
         </ul>
-      {{ end }}
+      </div>
     </div>
 
     <div class="col-12 col-lg-8">
-      {{ with .Params.bio }}<p class="lead">{{ . }}</p>{{ end }}
-      {{ with .Params.interests }}
-        <h3>Interests</h3>
-        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
-      {{ end }}
-      {{ with .Params.education }}
-        <h3>Education</h3>
-        <ul>
-          {{ range .courses }}
-            <li>{{ .course }}{{ with .institution }}, {{ . }}{{ end }}{{ with .year }} ({{ . }}){{ end }}</li>
-          {{ end }}
-        </ul>
-      {{ end }}
-      {{ .Content }}
+      <div class="article-style">{{ .Content }}</div>
+      <div class="row">
+        {{ with $person.interests }}
+        <div class="col-md-5">
+          <div class="section-subheading">{{ i18n "interests" | default "Interests" | markdownify }}</div>
+          <ul class="ul-interests mb-0">
+            {{ range . }}<li>{{ . | markdownify | emojify }}</li>{{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        {{ with $person.education }}
+        <div class="col-md-7">
+          <div class="section-subheading">{{ i18n "education" | default "Education" | markdownify }}</div>
+          <ul class="ul-edu fa-ul mb-0">
+            {{ range .courses }}
+            <li>
+              <i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+                <p class="institution">{{ .institution }}</p>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
     </div>
 
   </div>
+  {{ end }}
 </div>
 {{ end }}
