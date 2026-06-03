@@ -3,10 +3,14 @@
 """
 Fix Hugo Blox publication pages so each shows "Journal volume, pages".
 
-Matches each publication page to its BibTeX entry BY TITLE (folder names are
-ignored). Handles the case where the importer TRUNCATED long titles: if a page's
-title is a prefix of exactly one bib title, it is matched, and the full title is
-restored in the page as well.
+Robust to:
+  * folder names that don't match the BibTeX key (matches by TITLE),
+  * titles the importer wrapped across multiple indented YAML lines,
+  * files left with an orphaned continuation line by an earlier broken run
+    (these are detected and repaired).
+
+It rewrites the `title:` and `publication:` fields of each matched page to a
+clean single line, leaving the rest of the front matter untouched.
 
 RUN from the ROOT of your repo (next to publications.bib and content/):
     python3 fix_publication_fields.py
@@ -23,7 +27,6 @@ def norm(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 def parse_bib(path):
-    """Return list of dicts with full title + venue info."""
     txt = open(path, encoding="utf-8").read()
     out = []
     for m in re.finditer(r"@\w+\s*\{\s*([^,]+),(.*?)\n\}", txt, re.DOTALL):
@@ -34,11 +37,9 @@ def parse_bib(path):
             return fm.group(1).strip() if fm else ""
         title = field("title")
         if title:
-            out.append({
-                "title": title, "norm": norm(title),
-                "journal": field("journal"), "volume": field("volume"),
-                "pages": field("pages"), "note": field("note"),
-            })
+            out.append({"title": title, "norm": norm(title),
+                        "journal": field("journal"), "volume": field("volume"),
+                        "pages": field("pages"), "note": field("note")})
     return out
 
 def build_citation(e):
@@ -53,25 +54,53 @@ def build_citation(e):
         s += ", in press"
     return s.strip()
 
-def get_title(md_text):
-    m = re.search(r'(?m)^title:\s*(.*)$', md_text)
-    if not m:
-        m = re.search(r'(?m)^title\s*=\s*(.*)$', md_text)
-    if not m:
-        return ""
-    t = m.group(1).strip()
-    if len(t) >= 2 and t[0] in "\"'" and t[-1] == t[0]:
-        t = t[1:-1]
-    return t
+def split_front_matter(text):
+    m = re.match(r"^(---\n)(.*?\n)(---\n?)(.*)$", text, re.DOTALL)
+    if m:
+        return list(m.groups()) + ["yaml"]
+    m = re.match(r"^(\+\+\+\n)(.*?\n)(\+\+\+\n?)(.*)$", text, re.DOTALL)
+    if m:
+        return list(m.groups()) + ["toml"]
+    return None
 
-def set_field(md_text, field, value):
-    val = value.replace('"', '\\"')
-    new, n = re.subn(r'(?m)^' + field + r':[ \t]*.*$',
-                     f'{field}: "{val}"', md_text, count=1)
-    if n == 0:
-        new, n = re.subn(r'(?m)^' + field + r'[ \t]*=[ \t]*.*$',
-                         f'{field} = "{val}"', md_text, count=1)
+# field line + any following indented (continuation/orphan) lines
+def field_span_re(name):
+    return re.compile(r"(?m)^" + re.escape(name) + r"[ \t]*[:=][ \t]*.*(?:\n[ \t]+.*)*")
+
+def read_field(fm, name):
+    mm = field_span_re(name).search(fm)
+    if not mm:
+        return ""
+    block = mm.group(0)
+    block = re.sub(r"(?m)^" + re.escape(name) + r"[ \t]*[:=][ \t]*", "", block, count=1)
+    val = " ".join(line.strip() for line in block.splitlines())
+    val = re.sub(r"\s+", " ", val).strip()
+    if len(val) >= 2 and val[0] in "\"'" and val[-1] == val[0]:
+        val = val[1:-1]
+    return val.replace("''", "'")
+
+def write_field(fm, name, value, fmt):
+    esc = value.replace("\\", "\\\\").replace('"', '\\"')
+    sep = ":" if fmt == "yaml" else " ="
+    repl = f"{name}{sep} \"{esc}\""
+    new, n = field_span_re(name).subn(lambda _: repl, fm, count=1)
     return new, n > 0
+
+def find_entry(bib, by_norm, k):
+    if not k:
+        return None, None
+    e = by_norm.get(k)
+    if e:
+        return e, "exact"
+    # stored title is a prefix of one full title (wrapped, read partially)
+    c = [e for e in bib if len(k) >= 15 and e["norm"].startswith(k)]
+    if len(c) == 1:
+        return c[0], "prefix"
+    # stored title starts with a full title (corrupted: duplicated tail)
+    c = [e for e in bib if len(e["norm"]) >= 15 and k.startswith(e["norm"])]
+    if len(c) == 1:
+        return c[0], "corrupted"
+    return None, ("ambiguous" if c else "none")
 
 def main():
     if not os.path.exists(BIB):
@@ -86,49 +115,37 @@ def main():
     files = glob.glob(os.path.join(PUB_DIR, "**", "index.md"), recursive=True)
     print(f"Found {len(files)} index.md files under {PUB_DIR}/.")
 
-    updated = title_fixed = nomatch = ambiguous = 0
+    updated = repaired = 0
     unmatched = []
     for md in files:
         if os.path.basename(os.path.dirname(md)).startswith("_"):
             continue
         text = open(md, encoding="utf-8").read()
-        title = get_title(text)
-        k = norm(title)
-        if not k:
+        parts = split_front_matter(text)
+        if not parts:
+            unmatched.append((md, "<no front matter>", "skipped"))
+            continue
+        open_d, fm, close_d, body, fmt = parts
+
+        title = read_field(fm, "title")
+        entry, how = find_entry(bib, by_norm, norm(title))
+        if entry is None:
+            unmatched.append((md, title[:70], how))
             continue
 
-        entry = by_norm.get(k)
-        truncated = False
-        if entry is None:
-            # prefix match: the stored title is a truncated start of a full one
-            cands = [e for e in bib if len(k) >= 15 and e["norm"].startswith(k)]
-            if len(cands) == 1:
-                entry = cands[0]; truncated = True
-            elif len(cands) > 1:
-                ambiguous += 1
-                unmatched.append((md, title, "ambiguous"))
-                continue
-
-        if entry is None:
-            nomatch += 1
-            unmatched.append((md, title, "no match"))
-            continue
-
-        newtext, ok = set_field(text, "publication", build_citation(entry))
-        if truncated:  # also repair the truncated display title
-            newtext, okt = set_field(newtext, "title", entry["title"])
-            if okt:
-                title_fixed += 1
-        if ok and newtext != text:
-            open(md, "w", encoding="utf-8").write(newtext)
+        before = fm
+        fm, _  = write_field(fm, "publication", build_citation(entry), fmt)
+        fm, _  = write_field(fm, "title", entry["title"], fmt)  # also normalizes wrapping
+        if how in ("prefix", "corrupted"):
+            repaired += 1
+        if fm != before:
+            open(md, "w", encoding="utf-8").write(open_d + fm + close_d + body)
             updated += 1
 
-    print(f"\nDone. Updated {updated} (of which {title_fixed} also had a truncated "
-          f"title repaired). Ambiguous {ambiguous}, no-match {nomatch}.")
-    if unmatched:
-        print("\nStill unmatched:")
-        for md, t, why in unmatched:
-            print(f"  - [{why}] {md}  (title: {t!r})")
+    print(f"\nDone. Updated {updated} (repaired {repaired} wrapped/corrupted titles). "
+          f"Unmatched {len(unmatched)}.")
+    for md, t, why in unmatched:
+        print(f"  - [{why}] {md}  (title: {t!r})")
 
 if __name__ == "__main__":
     main()
