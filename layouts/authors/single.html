@@ -1,0 +1,66 @@
+{{/*
+  Author profile page override — shows ONLY the profile (no publication list).
+  Save this file in your repo at:  layouts/authors/single.html
+
+  To revert at any time, just delete this file; the original behavior returns.
+  If a build fails after adding it, your live site stays on its last good build,
+  so nothing breaks publicly — you can simply remove the file.
+*/}}
+{{ define "main" }}
+<div class="universal-wrapper pt-4 pb-4">
+  <div class="row">
+
+    {{/* ---- left column: avatar, name, role, org, social ---- */}}
+    <div class="col-12 col-lg-4 text-center">
+      {{ $avatar := .Resources.GetMatch "avatar*" }}
+      {{ with $avatar }}
+        <img class="avatar avatar-circle" src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+      {{ end }}
+      <h2 class="mt-3">{{ .Title }}</h2>
+      {{ with .Params.role }}<p class="mb-1">{{ . }}</p>{{ end }}
+      {{ range .Params.organizations }}
+        <p class="mb-1">
+          {{ if .url }}<a href="{{ .url | safeURL }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+        </p>
+      {{ end }}
+      {{ with .Params.social }}
+        <ul class="network-icon list-inline mt-2">
+          {{ range . }}
+            {{ $prefix := "fa" }}{{ if eq .icon_pack "ai" }}{{ $prefix = "ai" }}{{ end }}
+            <li class="list-inline-item">
+              <a href="{{ .link | safeURL }}" target="_blank" rel="noopener">
+                <i class="{{ .icon_pack }} {{ $prefix }}-{{ .icon }} fa-2x"></i>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+
+    {{/* ---- right column: bio, interests, education, free text ---- */}}
+    <div class="col-12 col-lg-8">
+      {{ with .Params.bio }}<p class="lead">{{ . }}</p>{{ end }}
+
+      {{ with .Params.interests }}
+        <h3>Interests</h3>
+        <ul>
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      {{ end }}
+
+      {{ with .Params.education }}
+        <h3>Education</h3>
+        <ul>
+          {{ range .courses }}
+            <li>{{ .course }}{{ with .institution }}, {{ . }}{{ end }}{{ with .year }} ({{ . }}){{ end }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+
+      {{/* Anything written below the front matter in _index.md */}}
+      {{ .Content }}
+    </div>
+
+  </div>
+</div>
+{{ end }}
