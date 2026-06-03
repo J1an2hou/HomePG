@@ -16,7 +16,7 @@ date: '2023-01-01'
 publishDate: '2026-06-03T05:33:43.845760Z'
 publication_types:
 - article-journal
-publication: '*Advanced Science*'
+publication: "*Advanced Science* 10, 2302444"
 links:
 - name: URL
   url: https://doi.org/10.1002/advs.202302444

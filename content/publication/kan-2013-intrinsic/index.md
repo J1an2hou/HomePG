@@ -10,7 +10,7 @@ date: '2013-01-01'
 publishDate: '2026-06-03T05:33:43.299033Z'
 publication_types:
 - article-journal
-publication: '*The Journal of Physical Chemistry Letters*'
+publication: "*The Journal of Physical Chemistry Letters* 4, 3382"
 links:
 - name: URL
   url: https://pubs.acs.org/doi/10.1021/jz4017848

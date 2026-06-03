@@ -9,7 +9,7 @@ date: '2012-01-01'
 publishDate: '2026-06-03T05:33:43.242286Z'
 publication_types:
 - article-journal
-publication: '*Journal of Nanoparticle Research*'
+publication: "*Journal of Nanoparticle Research* 14, 1171"
 links:
 - name: URL
   url: https://link.springer.com/article/10.1007/s11051-012-1171-3

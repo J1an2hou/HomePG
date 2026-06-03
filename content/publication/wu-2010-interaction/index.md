@@ -11,7 +11,7 @@ date: '2010-01-01'
 publishDate: '2026-06-03T05:33:43.160290Z'
 publication_types:
 - article-journal
-publication: '*Journal of Physics: Condensed Matter*'
+publication: "*Journal of Physics: Condensed Matter* 22, 275303"
 links:
 - name: URL
   url: https://iopscience.iop.org/article/10.1088/0953-8984/22/27/275303/meta

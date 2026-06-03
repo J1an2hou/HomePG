@@ -11,7 +11,7 @@ date: '2017-01-01'
 publishDate: '2026-06-03T05:33:43.474512Z'
 publication_types:
 - article-journal
-publication: '*Physical Review B*'
+publication: "*Physical Review B* 95, 045113"
 links:
 - name: URL
   url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.045113

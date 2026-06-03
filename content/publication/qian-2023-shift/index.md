@@ -9,7 +9,7 @@ date: '2023-01-01'
 publishDate: '2026-06-03T05:33:43.839605Z'
 publication_types:
 - article-journal
-publication: '*npj Computational Materials*'
+publication: "*npj Computational Materials* 9, 67"
 links:
 - name: URL
   url: https://www.nature.com/articles/s41524-023-01026-3

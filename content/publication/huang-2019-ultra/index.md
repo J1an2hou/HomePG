@@ -11,7 +11,7 @@ date: '2019-01-01'
 publishDate: '2026-06-03T05:33:43.562062Z'
 publication_types:
 - article-journal
-publication: '*Journal of the American Chemical Society*'
+publication: "*Journal of the American Chemical Society* 141, 12413"
 links:
 - name: URL
   url: https://pubs.acs.org/doi/10.1021/jacs.9b06452

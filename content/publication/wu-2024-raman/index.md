@@ -14,7 +14,7 @@ date: '2024-01-01'
 publishDate: '2026-06-03T05:33:43.864560Z'
 publication_types:
 - article-journal
-publication: '*Advanced Optical Materials*'
+publication: "*Advanced Optical Materials* 12, 2301747"
 links:
 - name: URL
   url: https://doi.org/10.1002/adom.202301747

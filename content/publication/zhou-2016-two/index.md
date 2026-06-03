@@ -7,7 +7,7 @@ date: '2016-01-01'
 publishDate: '2026-06-03T05:33:43.430823Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of SPIE (International Symposium on Clusters and Nanomaterials)*'
+publication: "*Proceedings of SPIE (International Symposium on Clusters and Nanomaterials)* 101740H, 242"
 links:
 - name: URL
   url: https://doi.org/10.1117/12.2248654

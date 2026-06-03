@@ -9,7 +9,7 @@ date: '2017-01-01'
 publishDate: '2026-06-03T05:33:43.505657Z'
 publication_types:
 - article-journal
-publication: '*Angewandte Chemie International Edition*'
+publication: "*Angewandte Chemie International Edition* 56, 13421"
 links:
 - name: URL
   url: https://onlinelibrary.wiley.com/doi/full/10.1002/anie.201706764

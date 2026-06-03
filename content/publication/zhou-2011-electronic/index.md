@@ -11,7 +11,7 @@ date: '2011-01-01'
 publishDate: '2026-06-03T05:33:43.179083Z'
 publication_types:
 - article-journal
-publication: '*Journal of Chemical Physics*'
+publication: "*Journal of Chemical Physics* 134, 174701"
 links:
 - name: URL
   url: https://doi.org/10.1063/1.3583476
