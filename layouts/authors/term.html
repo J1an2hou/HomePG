@@ -1,13 +1,16 @@
 {{/*
   Author profile page override (blox-bootstrap v5): shows ONLY the profile,
   with NO publication list. Save at:  layouts/authors/term.html
-  Reads the profile from the author page at /authors/admin, exactly like the
-  theme's About block. If your author folder is not "admin", change the path
-  in the $person_page line below.
+  Reads the profile of WHICHEVER author page is being viewed (admin, students,
+  etc.), exactly like the theme's About block, and omits the publication list.
+  The author username is taken from the page URL (/authors/<username>/), so each
+  person's page shows their own profile.
   To revert: delete this file.
 */}}
 {{ define "main" }}
-{{ $person_page := site.GetPage "/authors/admin" }}
+{{/* Use the author of THIS page (last URL segment), not a fixed name */}}
+{{ $author := path.Base .RelPermalink }}
+{{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
 <div class="universal-wrapper pt-5 pb-5">
   {{ with $person_page }}
   {{ $person := .Params }}
