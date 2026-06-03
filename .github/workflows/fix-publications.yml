@@ -1,0 +1,31 @@
+name: Fix publication fields
+
+# Run only when you click the button in the Actions tab (no automatic runs)
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # allow the run to commit the edited files back
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Add volume and pages to publication citations
+        run: python3 fix_publication_fields.py
+
+      - name: Commit the changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/publication
+          git commit -m "Add volume and pages to publication citations" || echo "Nothing to commit"
+          git push
