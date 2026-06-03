@@ -1,23 +1,17 @@
 {{/*
-  Author profile page override for the Bootstrap-based Academic / Research-Group
-  theme (blox-bootstrap v5). Shows ONLY the profile, with NO publication list.
-
-  SAVE THIS FILE AT:  layouts/authors/term.html
-  (The author page is a taxonomy "term" page, so the file MUST be term.html.)
-
-  To revert: delete this file. If a build ever fails, your live site stays on
-  its last good build, so nothing breaks publicly.
+  Author profile page override (blox-bootstrap v5): shows ONLY the profile,
+  no publication list. Save at:  layouts/authors/term.html
+  To revert: delete this file.
 */}}
 {{ define "main" }}
 <div class="universal-wrapper pt-5 pb-5">
   <div class="row">
 
-    {{/* ---- left: avatar, name, role, organization, social icons ---- */}}
     <div class="col-12 col-lg-4 text-center">
-      {{ $avatar := .Resources.GetMatch "avatar*" }}
-      {{ with $avatar }}
-        <img class="avatar avatar-circle" style="width:200px;height:200px;object-fit:cover;"
-             src="{{ (.Fill "400x400 Center").RelPermalink }}" alt="{{ $.Title }}">
+      {{ with .Resources.GetMatch "avatar*" }}
+        <img class="avatar avatar-circle"
+             style="width:200px;height:200px;object-fit:cover;border-radius:50%;"
+             src="{{ .RelPermalink }}" alt="{{ $.Title }}">
       {{ end }}
       <h2 class="mt-3 mb-1">{{ .Title }}</h2>
       {{ with .Params.role }}<p class="mb-1">{{ . }}</p>{{ end }}
@@ -40,17 +34,12 @@
       {{ end }}
     </div>
 
-    {{/* ---- right: bio, interests, education, and any free text ---- */}}
     <div class="col-12 col-lg-8">
       {{ with .Params.bio }}<p class="lead">{{ . }}</p>{{ end }}
-
       {{ with .Params.interests }}
         <h3>Interests</h3>
-        <ul>
-          {{ range . }}<li>{{ . }}</li>{{ end }}
-        </ul>
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
       {{ end }}
-
       {{ with .Params.education }}
         <h3>Education</h3>
         <ul>
@@ -59,7 +48,6 @@
           {{ end }}
         </ul>
       {{ end }}
-
       {{ .Content }}
     </div>
 
