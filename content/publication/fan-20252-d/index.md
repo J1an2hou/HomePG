@@ -1,5 +1,5 @@
 ---
-title: 2D edge-seeded heteroepitaxy of ultrathin high-κ dielectric CaNb2O6 for 2D
+title: "2D edge-seeded heteroepitaxy of ultrathin high-κ dielectric CaNb2O6 for 2D field-effect transistors"
   field-effect transistors
 authors:
 - Xiulian Fan
@@ -26,7 +26,7 @@ date: '2025-01-01'
 publishDate: '2026-06-03T05:33:43.978186Z'
 publication_types:
 - article-journal
-publication: '*Nature Communications*'
+publication: "*Nature Communications* 16, 2585"
 links:
 - name: URL
   url: https://www.nature.com/articles/s41467-025-57773-y

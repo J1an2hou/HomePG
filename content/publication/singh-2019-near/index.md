@@ -1,5 +1,5 @@
 ---
-title: Near-infrared optical properties and proposed phase-change usefulness of transition
+title: "Near-infrared optical properties and proposed phase-change usefulness of transition metal disulfides"
   metal disulfides
 authors:
 - Akshay Singh
@@ -15,7 +15,7 @@ date: '2019-01-01'
 publishDate: '2026-06-03T05:33:43.580987Z'
 publication_types:
 - article-journal
-publication: '*Applied Physics Letters*'
+publication: "*Applied Physics Letters* 115, 161902"
 links:
 - name: URL
   url: https://doi.org/10.1063/1.5124224

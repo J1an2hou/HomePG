@@ -1,5 +1,5 @@
 ---
-title: Quasi-Solid-State Conversion with Fast Redox Kinetics Enabled by A Sulfonamide-Based
+title: "Quasi-Solid-State Conversion with Fast Redox Kinetics Enabled by A Sulfonamide-Based Electrolyte in Li-Organic Batteries"
   Electrolyte in Li-Organic Batteries
 authors:
 - Huang Cai
@@ -15,7 +15,7 @@ date: '2024-01-01'
 publishDate: '2026-06-03T05:33:43.940629Z'
 publication_types:
 - article-journal
-publication: '*ACS Nano*'
+publication: "*ACS Nano* 18, 32723"
 links:
 - name: URL
   url: https://pubs.acs.org/doi/10.1021/acsnano.4c10343

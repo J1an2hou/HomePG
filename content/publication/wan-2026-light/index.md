@@ -1,5 +1,5 @@
 ---
-title: Light-Driven Ferroic Switching Enables Reversible Control of Hydrogen Adsorption
+title: "Light-Driven Ferroic Switching Enables Reversible Control of Hydrogen Adsorption Thermodynamics"
   Thermodynamics
 authors:
 - Xueqing Wan
@@ -14,7 +14,7 @@ date: '2026-01-01'
 publishDate: '2026-06-03T05:33:44.054069Z'
 publication_types:
 - article-journal
-publication: '*Nano Letters*'
+publication: "*Nano Letters*, in press"
 links:
 - name: URL
   url: https://doi.org/10.1021/acs.nanolett.5c02687

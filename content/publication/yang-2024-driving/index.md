@@ -1,5 +1,5 @@
 ---
-title: Driving and detecting topological phase transition in noncentrosymmetric systems
+title: "Driving and detecting topological phase transition in noncentrosymmetric systems via an all-optical approach"
   via an all-optical approach
 authors:
 - Mengtong Yang
@@ -11,7 +11,7 @@ date: '2024-01-01'
 publishDate: '2026-06-03T05:33:43.883847Z'
 publication_types:
 - article-journal
-publication: '*Physical Review B*'
+publication: "*Physical Review B* 109, 125101"
 links:
 - name: URL
   url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.125101

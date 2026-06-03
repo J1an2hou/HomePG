@@ -1,5 +1,5 @@
 ---
-title: Achieving High-Yield Conversion of Janus Transition Metal Dichalcogenides on
+title: "Achieving High-Yield Conversion of Janus Transition Metal Dichalcogenides on Diverse Substrates"
   Diverse Substrates
 authors:
 - Xueqiu Zheng
@@ -13,7 +13,7 @@ date: '2025-01-01'
 publishDate: '2026-06-03T05:33:44.009875Z'
 publication_types:
 - article-journal
-publication: '*ACS Nano*'
+publication: "*ACS Nano* 19, 20744"
 links:
 - name: URL
   url: https://pubs.acs.org/doi/full/10.1021/acsnano.5c02687

@@ -1,5 +1,5 @@
 ---
-title: Giant magnetocrystalline anisotropy of 5d transition metal-based phthalocyanine
+title: "Giant magnetocrystalline anisotropy of 5d transition metal-based phthalocyanine sheet"
   sheet
 authors:
 - Jian Zhou
@@ -11,7 +11,7 @@ date: '2015-01-01'
 publishDate: '2026-06-03T05:33:43.368348Z'
 publication_types:
 - article-journal
-publication: '*Physical Chemistry Chemical Physics*'
+publication: "*Physical Chemistry Chemical Physics* 17, 17182"
 links:
 - name: URL
   url: https://doi.org/10.1039/C5CP01525A

@@ -1,5 +1,5 @@
 ---
-title: Pre-combustion CO2 capture by transition metal ions embedded in phthalocyanine
+title: "Pre-combustion CO2 capture by transition metal ions embedded in phthalocyanine sheets"
   sheets
 authors:
 - Kun Lü
@@ -12,7 +12,7 @@ date: '2012-01-01'
 publishDate: '2026-06-03T05:33:43.229765Z'
 publication_types:
 - article-journal
-publication: '*Journal of Chemical Physics*'
+publication: "*Journal of Chemical Physics* 136, 234703"
 links:
 - name: URL
   url: https://doi.org/10.1063/1.4729471

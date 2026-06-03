@@ -1,5 +1,5 @@
 ---
-title: Layer number dependent ferroelasticity in 2D Ruddlesden-Popper organic-inorganic
+title: "Layer number dependent ferroelasticity in 2D Ruddlesden-Popper organic-inorganic hybrid perovskites"
   hybrid perovskites
 authors:
 - Xun Xiao
@@ -15,7 +15,7 @@ date: '2021-01-01'
 publishDate: '2026-06-03T05:33:43.656478Z'
 publication_types:
 - article-journal
-publication: '*Nature Communications*'
+publication: "*Nature Communications* 12, 1332"
 links:
 - name: URL
   url: https://www.nature.com/articles/s41467-021-21493-w

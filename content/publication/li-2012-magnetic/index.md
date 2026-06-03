@@ -1,5 +1,5 @@
 ---
-title: Magnetic properties of two-dimensional silicon carbide triangular nanoflakes-based
+title: "Magnetic properties of two-dimensional silicon carbide triangular nanoflakes-based kagome lattices"
   kagome lattices
 authors:
 - Xiaowei Li
@@ -10,7 +10,7 @@ date: '2012-01-01'
 publishDate: '2026-06-03T05:33:43.236056Z'
 publication_types:
 - article-journal
-publication: '*Journal of Nanoparticle Research*'
+publication: "*Journal of Nanoparticle Research* 14, 1056"
 links:
 - name: URL
   url: https://link.springer.com/article/10.1007/s11051-012-1056-5
