@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Fix Hugo Blox publication pages so each shows "Journal volume, pages"
-instead of only the journal/year.
+Fix Hugo Blox publication pages so each shows "Journal volume, pages".
 
-This version matches each publication page to its BibTeX entry BY TITLE,
-so it does not matter what the importer named the folders.
+Matches each publication page to its BibTeX entry BY TITLE (folder names are
+ignored). Handles the case where the importer TRUNCATED long titles: if a page's
+title is a prefix of exactly one bib title, it is matched, and the full title is
+restored in the page as well.
 
-HOW TO RUN (locally or via the GitHub Action you already set up):
-  Place this file in the ROOT of your repo (next to publications.bib and the
-  `content/` folder). It replaces the old fix_publication_fields.py.
-
-      python3 fix_publication_fields.py
-
-  It rewrites the `publication:` field inside every
-  content/publication/<whatever>/index.md whose title matches a bib entry.
+RUN from the ROOT of your repo (next to publications.bib and content/):
+    python3 fix_publication_fields.py
 """
 
 import os, re, sys, glob, unicodedata
@@ -23,44 +18,45 @@ BIB = "publications.bib"
 PUB_DIR = os.path.join("content", "publication")
 
 def norm(s):
-    """Normalize a title for matching: drop accents, lowercase, keep [a-z0-9]."""
     s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 def parse_bib(path):
-    """Return {normalized_title: (journal, volume, pages, note)}."""
+    """Return list of dicts with full title + venue info."""
     txt = open(path, encoding="utf-8").read()
-    out = {}
+    out = []
     for m in re.finditer(r"@\w+\s*\{\s*([^,]+),(.*?)\n\}", txt, re.DOTALL):
         body = m.group(2)
         def field(name):
             fm = re.search(r"\b" + name + r"\s*=\s*\{+(.*?)\}+\s*,?\s*\n",
                            body + "\n", re.DOTALL)
             return fm.group(1).strip() if fm else ""
-        title   = field("title")
-        journal = field("journal")
-        volume  = field("volume")
-        pages   = field("pages")
-        note    = field("note")
+        title = field("title")
         if title:
-            out[norm(title)] = (journal, volume, pages, note)
+            out.append({
+                "title": title, "norm": norm(title),
+                "journal": field("journal"), "volume": field("volume"),
+                "pages": field("pages"), "note": field("note"),
+            })
     return out
 
-def build_citation(journal, volume, pages, note):
-    s = "*" + journal + "*" if journal else ""
-    if volume and pages:
-        s += f" {volume}, {pages}"
-    elif volume:
-        s += f" {volume}"
-    elif pages:
-        s += f" {pages}"
-    if note and "press" in note.lower():
+def build_citation(e):
+    s = "*" + e["journal"] + "*" if e["journal"] else ""
+    if e["volume"] and e["pages"]:
+        s += f" {e['volume']}, {e['pages']}"
+    elif e["volume"]:
+        s += f" {e['volume']}"
+    elif e["pages"]:
+        s += f" {e['pages']}"
+    if e["note"] and "press" in e["note"].lower():
         s += ", in press"
     return s.strip()
 
 def get_title(md_text):
     m = re.search(r'(?m)^title:\s*(.*)$', md_text)
+    if not m:
+        m = re.search(r'(?m)^title\s*=\s*(.*)$', md_text)
     if not m:
         return ""
     t = m.group(1).strip()
@@ -68,56 +64,71 @@ def get_title(md_text):
         t = t[1:-1]
     return t
 
-def update_pub_field(md_text, citation):
-    val = citation.replace('"', '\\"')
-    new, n = re.subn(r'(?m)^publication:[ \t]*.*$',
-                     f'publication: "{val}"', md_text, count=1)
+def set_field(md_text, field, value):
+    val = value.replace('"', '\\"')
+    new, n = re.subn(r'(?m)^' + field + r':[ \t]*.*$',
+                     f'{field}: "{val}"', md_text, count=1)
     if n == 0:
-        new, n = re.subn(r'(?m)^publication[ \t]*=[ \t]*.*$',
-                         f'publication = "{val}"', md_text, count=1)
-    return (new, n > 0 and new != md_text)
+        new, n = re.subn(r'(?m)^' + field + r'[ \t]*=[ \t]*.*$',
+                         f'{field} = "{val}"', md_text, count=1)
+    return new, n > 0
 
 def main():
     if not os.path.exists(BIB):
-        sys.exit(f"Cannot find {BIB} in the current folder. Run from your repo root.")
+        sys.exit(f"Cannot find {BIB}. Run from your repo root.")
     if not os.path.isdir(PUB_DIR):
         sys.exit(f"Cannot find {PUB_DIR}/. Run from your repo root.")
 
     bib = parse_bib(BIB)
+    by_norm = {e["norm"]: e for e in bib}
     print(f"Loaded {len(bib)} entries from {BIB}.")
 
     files = glob.glob(os.path.join(PUB_DIR, "**", "index.md"), recursive=True)
     print(f"Found {len(files)} index.md files under {PUB_DIR}/.")
 
-    changed = nomatch = nofield = 0
-    unmatched_titles = []
+    updated = title_fixed = nomatch = ambiguous = 0
+    unmatched = []
     for md in files:
         if os.path.basename(os.path.dirname(md)).startswith("_"):
-            continue  # skip section _index.md etc.
+            continue
         text = open(md, encoding="utf-8").read()
         title = get_title(text)
-        key = norm(title)
-        if key not in bib:
-            nomatch += 1
-            unmatched_titles.append((md, title))
+        k = norm(title)
+        if not k:
             continue
-        journal, volume, pages, note = bib[key]
-        citation = build_citation(journal, volume, pages, note)
-        newtext, ok = update_pub_field(text, citation)
-        if ok:
-            open(md, "w", encoding="utf-8").write(newtext)
-            changed += 1
-        else:
-            nofield += 1
-            print(f"  [no publication field] {md}")
 
-    print(f"\nDone. Updated {changed}, no-title-match {nomatch}, no-field {nofield}.")
-    if unmatched_titles:
-        print("\nFiles whose title did not match any bib entry:")
-        for md, t in unmatched_titles[:20]:
-            print(f"  - {md}  (title: {t!r})")
-        if len(unmatched_titles) > 20:
-            print(f"  ... and {len(unmatched_titles) - 20} more")
+        entry = by_norm.get(k)
+        truncated = False
+        if entry is None:
+            # prefix match: the stored title is a truncated start of a full one
+            cands = [e for e in bib if len(k) >= 15 and e["norm"].startswith(k)]
+            if len(cands) == 1:
+                entry = cands[0]; truncated = True
+            elif len(cands) > 1:
+                ambiguous += 1
+                unmatched.append((md, title, "ambiguous"))
+                continue
+
+        if entry is None:
+            nomatch += 1
+            unmatched.append((md, title, "no match"))
+            continue
+
+        newtext, ok = set_field(text, "publication", build_citation(entry))
+        if truncated:  # also repair the truncated display title
+            newtext, okt = set_field(newtext, "title", entry["title"])
+            if okt:
+                title_fixed += 1
+        if ok and newtext != text:
+            open(md, "w", encoding="utf-8").write(newtext)
+            updated += 1
+
+    print(f"\nDone. Updated {updated} (of which {title_fixed} also had a truncated "
+          f"title repaired). Ambiguous {ambiguous}, no-match {nomatch}.")
+    if unmatched:
+        print("\nStill unmatched:")
+        for md, t, why in unmatched:
+            print(f"  - [{why}] {md}  (title: {t!r})")
 
 if __name__ == "__main__":
     main()
