@@ -18,7 +18,7 @@ role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
-  - name: Xi'an Jiaotong University University
+  - name: Xi'an Jiaotong University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
