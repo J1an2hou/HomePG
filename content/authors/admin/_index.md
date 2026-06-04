@@ -36,11 +36,6 @@ education:
       institution: Peking University
       year: 2008
 
-employment:
-  - Postdoc, Virginia Commonwealth University
-  - Postdoc, Massachusetts Institute of Technology
-  - Professor, Xi'an Jiaotong University
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
