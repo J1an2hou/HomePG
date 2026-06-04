@@ -25,6 +25,9 @@ jobs:
       - name: Add volume and pages to publication citations
         run: python3 fix_publication_fields.py
 
+      - name: Copy admin to jian-zhou
+        run: python3 add_pi_profile_page.py
+
       - name: Commit the changes
         run: |
           git config user.name  "github-actions[bot]"
