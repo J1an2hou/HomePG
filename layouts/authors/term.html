@@ -1,28 +1,25 @@
-{{/* Author profile page override (blox-bootstrap v5): shows ONLY the profile, with NO publication list. Save at: layouts/authors/term.html Reads the profile of WHICHEVER author page is being viewed (admin, students, etc.), exactly like the theme's About block, and omits the publication list. The author username is taken from the page URL (/authors//), so each person's page shows their own profile. To revert: delete this file. */}} {{ define "main" }} {{/* Use this page's own author folder name (reliable), fall back to URL slug */}} {{ $author := "" }} {{ with .File }}{{ $author = path.Base .Dir }}{{ else }}{{ $author = path.Base $.RelPermalink }}{{ end }} {{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
-{{ with $person_page }} {{ $person := .Params }}
-{{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }} {{ with $avatar }} {{ $img := .Fill "270x270 Center" }} {{ $person_page.Title }} {{ end }}
-{{ $person_page.Title }}
-{{ with $person.role }}
-{{ . | markdownify | emojify }}
-{{ end }} {{ range $person.organizations }}
-{{ with .url }}{{ end }} {{ .name }} {{ if .url }}{{ end }}
-{{ end }}
-{{ range $person.social }} {{ $pack := or .icon_pack "fas" }} {{ $pack_prefix := $pack }} {{ if in (slice "fab" "fas" "far" "fal") $pack }}{{ $pack_prefix = "fa" }}{{ end }}
-{{ end }}
-{{ .Content }}
-{{ with $person.interests }}
-{{ i18n "interests" | default "Interests" | markdownify }}
-{{ range . }}
-{{ . | markdownify | emojify }}
-{{ end }}
-{{ end }} {{ with $person.education }}
-{{ i18n "education" | default "Education" | markdownify }}
-{{ range .courses }}
-{{ .course }}{{ with .year }}, {{ . }}{{ end }}
+{{/*
+  Author profile page override (blox-bootstrap v5).
+  Renders the theme's NATIVE About profile (avatar, name, role, organization,
+  social, bio, interests, education) and NOTHING else — i.e. no publication list.
+  Works for every author: the username is taken from the page URL
+  (/authors/<username>/) and handed to the theme's own About block partial,
+  so the styling is identical to the rest of the site.
 
-{{ .institution }}
-
-{{ end }}
-{{ end }}
-{{ end }}
+  Save at:  layouts/authors/term.html
+  To revert: delete this file.
+*/}}
+{{ define "main" }}
+{{ $author := path.Base .RelPermalink }}
+{{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
+<div class="universal-wrapper pt-4 pb-5">
+  {{ if $person_page }}
+    {{ partial "blocks/v1/about.html" (dict
+         "wcPage"  .
+         "wcBlock" (dict "Params" (dict) "Title" "")
+         "author"  $author) }}
+  {{ else }}
+    <h1 class="text-center">{{ .Title }}</h1>
+  {{ end }}
+</div>
 {{ end }}
