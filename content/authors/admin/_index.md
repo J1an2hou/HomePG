@@ -9,6 +9,7 @@ first_name: Jian
 last_name: Zhou
 
 # Is this the primary user of the site?
+superuser: true
 
 # Role/position
 role: Professor of MSE
@@ -64,6 +65,8 @@ highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+  - Principal Investigators
 ---
 
 Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials. With co-authored in over 100 peer reviewed publications (in PNAS, PRL, JACS, etc.), he has a total citation of over 9,000 times with an h-index of 43. Prior to the current position, he was employed at Virginia Commonwealth University and Massachusetts Institute of Technology as postdoc associates.
