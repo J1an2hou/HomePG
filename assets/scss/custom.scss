@@ -1,0 +1,12 @@
+/* Hide the auto-generated "Latest" publication list on author profile pages.
+   Targets only the content list inside the author page's #profile-page section,
+   so the profile (avatar, bio, interests, education) above it is untouched. */
+#profile-page .article-widget {
+  display: none;
+}
+
+/* Optional: remove the now-empty section's top padding so the page isn't
+   left with a big blank gap where the list used to be. */
+#profile-page {
+  padding-top: 0 !important;
+}
