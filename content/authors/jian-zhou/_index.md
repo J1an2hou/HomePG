@@ -33,6 +33,11 @@ education:
       institution: Peking University
       year: 2008
 
+employment:
+  - Postdoc, Virginia Commonwealth University
+  - Postdoc, Massachusetts Institute of Technology
+  - Professor, Xi'an Jiaotong University
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -64,4 +69,4 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 ---
 
-Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials.
+Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials. With co-authored in over 100 peer reviewed publications (in PNAS, PRL, JACS, etc.), he has a total citation of over 9,000 times with an h-index of 43.
