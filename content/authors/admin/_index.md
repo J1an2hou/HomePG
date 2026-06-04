@@ -1,6 +1,4 @@
 ---
-authors:
-  - "admin"
 # Display name
 title: Jian Zhou
 
@@ -9,7 +7,6 @@ first_name: Jian
 last_name: Zhou
 
 # Is this the primary user of the site?
-superuser: true
 
 # Role/position
 role: Professor of MSE
@@ -36,6 +33,11 @@ education:
       institution: Peking University
       year: 2008
 
+employment:
+  - Postdoc, Virginia Commonwealth University
+  - Postdoc, Massachusetts Institute of Technology
+  - Professor, Xi'an Jiaotong University
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -53,20 +55,18 @@ social:
     
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
- - icon: cv
-   icon_pack: ai
-   link: files/cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'jianzhou@xjtu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Principal Investigators
 ---
 
-Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials. With over 100 authored peer reviewed publications in PNAS, PRL, JACS, etc., his total citation is over 9,000 times (h-index of 43).
+Jian Zhou is a professor of materials science at Xi'an Jiaotong University, focusing on numerical understanding of physical behavior of quantum materials. With co-authored in over 100 peer reviewed publications (in PNAS, PRL, JACS, etc.), he has a total citation of over 9,000 times with an h-index of 43.
