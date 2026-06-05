@@ -10,7 +10,7 @@ sections:
       slides:
       - title: 👋 Welcome to our group
         content: We are NOT just coding
-        align: left
+        align: center
         background:
           image:
             filename: coding.jpg
@@ -19,11 +19,31 @@ sections:
           position: right
           color: '#666'
       - title: We are interested in many things
-        content: 'Nonlinear optics'
+        content: 'Nonlinear optics - X'
         align: center
         background:
           image:
             filename: OptoSp.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: You may like
+        content: 'Light-induced phase transition'
+        align: center
+        background:
+          image:
+            filename: OM.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: Or how about
+        content: 'Opto-spintronics'
+        align: center
+        background:
+          image:
+            filename: OptoSpCurr.jpg
             filters:
               brightness: 0.7
           position: center
@@ -41,7 +61,7 @@ sections:
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
+          text: Contact Us
           url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
@@ -50,5 +70,5 @@ sections:
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 2000
+      interval: 5000
 ---
