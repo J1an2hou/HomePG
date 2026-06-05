@@ -8,7 +8,7 @@ sections:
   - block: contact
     content:
       title: Contact
-      text:  Xi'an Jiaotong University Cyrus Tang Building
+      text:  Center for Alloy Innovation and Design, School of MSE, Xi'an Jiaotong University
       email: jianzhou.AT.xjtu.edu.cn
       phone: 029-8266-5838
       address:
@@ -21,7 +21,7 @@ sections:
       coordinates:
         latitude: '34.246'
         longitude: '108.985'
-      directions: Building A
+      directions: Cyrus Tang Building, Xi'an Jiaotong University
       office_hours:
         - 'Mon-Fri 08:00 to 18:00'
       # appointment_url: 'https://calendly.com'
@@ -42,8 +42,8 @@ sections:
       #  netlify:
       #    # Enable CAPTCHA challenge to reduce spam?
       #    captcha: false
-    design:
-      columns: '1'
+   # design:
+   #   columns: '1'
 
   - block: markdown
     content:
