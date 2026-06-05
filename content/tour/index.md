@@ -9,31 +9,31 @@ sections:
     content:
       slides:
       - title: 👋 Welcome to our group
-        content: Take a look at us...
+        content: We are NOT just coding
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: coding.jpg
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: We are interested in many things
+        content: 'Nonlinear Optics'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: OptoSp.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: Phase transition
+        content: 'From dark to bright'
         align: right
         background:
           image:
-            filename: coding.jpg
+            filename: OM.jpg
             filters:
               brightness: 0.5
           position: center
