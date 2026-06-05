@@ -15,8 +15,7 @@ address:
 summary: Future get-together.
 abstract: 'Will become true in near future'
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
+  # Talk start and end times.
 date: '2099-01-01T14:00:00Z'
 date_end: '2099-01-01T14:00:01Z'
 all_day: false
@@ -34,17 +33,17 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+# url_code: ''
+# url_pdf: ''
+# url_slides: ''
+# url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides:
+# slides:
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -52,7 +51,7 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
----
+
 
 # Slides can be added in a few ways:
 
@@ -61,3 +60,4 @@ projects:
 # - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
 
 # Further event details, including page elements such as image galleries, can be added to the body of this page.
+---
