@@ -10,7 +10,7 @@ sections:
       slides:
       - title: 👋 Welcome to our group
         content: We are NOT just coding
-        align: center
+        align: left
         background:
           image:
             filename: coding.jpg
@@ -28,16 +28,6 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: Phase transition
-        content: 'From dark to bright'
-        align: right
-        background:
-          image:
-            filename: OM.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
       - title: Waiting for you
         content: 'There are vacancies'
         align: right
