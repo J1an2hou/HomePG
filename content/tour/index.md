@@ -19,8 +19,8 @@ sections:
           position: right
           color: '#666'
       - title: We are interested in many things
-        content: 'Nonlinear Optics'
-        align: left
+        content: 'Nonlinear optics'
+        align: center
         background:
           image:
             filename: OptoSp.jpg
@@ -38,6 +38,16 @@ sections:
               brightness: 0.5
           position: center
           color: '#333'
+      - title: Waiting for you
+        content: 'There are vacancies'
+        align: right
+        background:
+          image:
+            filename: hdwk.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
         link:
           icon: graduation-cap
           icon_pack: fas
@@ -48,7 +58,7 @@ sections:
       slide_height: ''
       is_fullscreen: true
       # Automatically transition through slides?
-      loop: false
+      loop: true
       # Duration of transition between slides (in ms)
       interval: 2000
 ---
