@@ -19,13 +19,13 @@ sections:
         country: China
         country_code: CHN
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        latitude: '34.246'
+        longitude: '108.985'
+      directions: Building A
       office_hours:
         - 'Mon-Fri 08:00 to 18:00'
-      appointment_url: 'https://calendly.com'
-      #contact_links:
+      # appointment_url: 'https://calendly.com'
+      # contact_links:
       #  - icon: comments
       #    icon_pack: fas
       #    name: Discuss on Forum
@@ -35,13 +35,13 @@ sections:
       autolink: true
     
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
+      #    # Enable CAPTCHA challenge to reduce spam?
+      #    captcha: false
     design:
       columns: '1'
 
@@ -54,7 +54,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: hiring.jpg
           filters:
             brightness: 1
           parallax: false
