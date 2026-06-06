@@ -2,7 +2,7 @@
 title: A brief review paper in Adv Mater
 date: 2026-04-08
 image:
-  focal_point: 'bottom'
+  focal_point: 'top'
 ---
 
 We publish a review paper in Adv. Mater. on the theory and experimental advances in bulk photovoltaic effect and its application.
