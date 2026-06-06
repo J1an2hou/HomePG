@@ -16,5 +16,5 @@ publication_types:
 publication: "*Nano Letters*, in press"
 links:
 - name: URL
-  url: https://doi.org/10.1021/acs.nanolett.5c02687
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6c00956
 ---
