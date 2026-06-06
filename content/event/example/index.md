@@ -17,7 +17,7 @@ abstract: 'Will become true in near future'
 
   # Talk start and end times.
 date: '2099-01-01T14:00:00Z'
-date_end: '2099-01-01T14:00:01Z'
+date_end: '2099-01-01T14:01:0Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
