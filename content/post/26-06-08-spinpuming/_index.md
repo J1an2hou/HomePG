@@ -1,5 +1,5 @@
 ---
-title: Intrinsic pin and Neel pumping in AFMs
+title: Intrinsic spin and Neel pumping in AFMs
 date: 2026-06-08
 image:
   focal_point: 'top'
