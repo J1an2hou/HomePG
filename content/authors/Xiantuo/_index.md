@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Master Student
+role: Master Student (2022-2025)
 
 # Organizations/Affiliations
 organizations:
