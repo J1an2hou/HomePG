@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Candidate
+role: PhD Candidate (2023-now)
 
 # Organizations/Affiliations
 organizations:
