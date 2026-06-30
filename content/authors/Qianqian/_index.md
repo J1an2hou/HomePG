@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student
+role: PhD Student (2021-2025)
 
 # Organizations/Affiliations
 organizations:
