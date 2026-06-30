@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Researcher
+role: Researcher (2024-2025)
 
 # Organizations/Affiliations
 organizations:
@@ -24,7 +24,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 
 interests:
-  - Optically induced phase transition
+  - Optically induced transport theory and Hall effects
 
 
 user_groups:
