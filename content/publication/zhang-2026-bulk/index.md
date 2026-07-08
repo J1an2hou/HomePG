@@ -8,7 +8,7 @@ date: '2026-06-17'
 publishDate: '2026-06-17T01:00:00.940629Z'
 publication_types:
 - article-journal
-publication: "*Physical Review B* in press"
+publication: "*Physical Review B* 114, 045303"
 links:
 - name: URL
   url: https://doi.org/10.1103/zp88-7m5h
