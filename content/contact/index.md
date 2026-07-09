@@ -59,7 +59,7 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          size: cover
+          size: contain
           text_color_light: true
       spacing:
         padding: ['15px', '0', '15px', '0']
