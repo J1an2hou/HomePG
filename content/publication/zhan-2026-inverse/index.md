@@ -16,7 +16,7 @@ date: '2026-07-29'
 publishDate: '2026-07-29T05:33:43.984955Z'
 publication_types:
 - article-journal
-publication: "*The Journal of Physical Chemistry Letters*  17, 8953 (2026)"
+publication: "*The Journal of Physical Chemistry Letters*  17, 8953"
 links:
 - name: URL
   url: https://doi.org/10.1021/acs.jpclett.6c01574
