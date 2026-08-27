@@ -19,7 +19,7 @@ sections:
           position: right
           color: '#666'
       - title: We are interested in many things
-        content: 'Nonlinear optics - X'
+        content: 'Nonlinear optics - *X*'
         align: center
         background:
           image:
