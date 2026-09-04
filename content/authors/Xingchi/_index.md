@@ -14,11 +14,11 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Candidate (2022-now)
+role: PhD Student (2022-2026)
 
 # Organizations/Affiliations
 organizations:
-  - name: Xi'an Jiaotong University
+  - name: Xi'an Jiaotong University, to Pengxinwei Corp
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -28,5 +28,5 @@ interests:
 
 
 user_groups:
-  - Grad Students
+  - Alumni
 ---
