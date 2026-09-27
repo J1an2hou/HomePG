@@ -20,7 +20,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include theoretical and numerical understanding of nonlinear optical processes, including phase transition, opto-magnetic coupling.
+bio: My research interests include theoretical and numerical understanding of nonlinear optical processes, including phase transition, opto-spintronic, and opto-transport effects.
 
 interests:
   - Nonlinear Optics
@@ -72,4 +72,4 @@ user_groups:
   - Principal Investigators
 ---
 
-Jian Zhou is a Professor of materials science at Xi'an Jiaotong University, focusing on theoretical and numerical understanding of physical behavior of quantum materials. With co-authored in over 100 peer reviewed publications (in PNAS, PRL, JACS, etc.), he has a total citation of over 9,000 times with an h-index of 44. Prior to the current position, he was employed at Virginia Commonwealth University and Massachusetts Institute of Technology as postdoc associates. Some selected honors include: National Young Talent Program, Elsvier Highly Cited Scholar in China, Outstanding Reviewer in npj Computational Materials, Top 2% Scientists in the career life and yearly lists.
+Jian Zhou is a Professor of materials science at Xi'an Jiaotong University, focusing on theoretical and numerical understanding of physical behavior of quantum materials. With co-authored in over 100 peer reviewed publications (in PNAS, PRL, JACS, etc.), he has a total citation of ~10,000 times with an h-index of 45. Prior to the current position, he was employed at Virginia Commonwealth University and Massachusetts Institute of Technology as postdoc associates. Some selected honors include: National Young Talent Program, Elsvier Highly Cited Scholar in China, Outstanding Reviewer in npj Computational Materials, Top 2% Scientists in the career life and yearly lists.
