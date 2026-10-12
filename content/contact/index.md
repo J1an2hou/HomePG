@@ -19,8 +19,8 @@ sections:
         country: China
         country_code: CHN
       coordinates:
-        latitude: '34.246'
-        longitude: '108.985'
+        latitude: '34.24909'
+        longitude: '108.97541'
       directions: Cyrus Tang Building, Xi'an Jiaotong University
       office_hours:
         - 'Mon-Fri 08:00 to 18:00'
