@@ -8,7 +8,7 @@ date: '2026-10-27'
 publishDate: '2026-10-27T05:33:43.940629Z'
 publication_types:
 - article-journal
-publication: "*Physical Review B* in press"
+publication: "*Physical Review B* 114, 264412"
 links:
 - name: URL
   url: https://doi.org/10.1103/mt31-c8x3
